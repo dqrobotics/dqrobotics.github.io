@@ -1,0 +1,144 @@
+<html>
+  <head>
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,b,i' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="stylesheets/syntax.css" media="screen">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>DQ Robotics</title>
+    <link rel="shortcut icon" type="image/png" href="http://murlou.github.io/dqrobotics/favicon.png"/>
+  </head>
+
+
+<body>
+      <div id="container">
+      <div class="inner">
+
+        <header>
+          <a href="http://murlou.github.io/dqrobotics/"><img src="images/dqrobotics_logo_infinity.png"/></a>
+          <center><h2 style="color:#A00000">&nbsp;&nbsp;&nbsp;&nbsp;The dual quaternion robotics library</h2></center>
+        </header>
+         <hr>
+        <section id="downloads" class="clearfix">
+
+          <a target="_blank" href="http://sourceforge.net/p/dqrobotics/code/HEAD/tree/" id="view-on-sourceforge" class="button"><span>Code on SF!</span></a>
+
+          <a target="_blank" href="http://sourceforge.net/p/dqrobotics/code/HEAD/tarball" id="download-zip" class="button"><span>Download .zip</span></a>
+
+          <a href="http://murlou.github.io/dqrobotics/tutorial.html" id="tutorials" class="button"><span>Tutorials</span></a>
+
+          <a target="_blank" href="http://sourceforge.net/p/dqrobotics/tickets/" id="report-bug" class="button"><span>Issue tracker</span></a>
+
+        </section>
+
+        <!--<section id="downloads" class="clearfix">
+
+          
+
+          <!--<a href="http://sourceforge.net/p/dqrobotics/code/HEAD/tarball" id="download-zip" class="button"><span>Download .zip</span></a>
+
+          <a href="http://sourceforge.net/p/dqrobotics/tickets/" id="report-bug" class="button"><span>Report bug</span></a>
+
+        </section>-->
+
+        
+
+
+  <script type="math/tex; mode=display">\newcommand{\mymatrix}[1]{\mathbf{#1}}
+\newcommand{\vect}[1]{\vec{#1}}
+\newcommand{\dualnum}[1]{\underline{#1}}
+\newcommand{\dotprod}[1]{\langle#1\rangle}
+\newcommand{\norm}[1]{\parallel#1\parallel}
+\newcommand{\quat}[1]{\mathbf{#1}}
+\newcommand{\dq}[1]{\underline{\mathbf{#1}}} 
+\newcommand{\dualvec}[1]{\underline{\vec{#1}}}
+\newcommand{\hamiltonpos}[1]{\overset{+}{\mymatrix H}(#1)}
+\newcommand{\hamiltonneg}[1]{\overset{-}{\mymatrix H}(#1)}
+\newcommand{\getdual}[1]{\mathcal{D}(#1)}
+\newcommand{\getprimary}[1]{\mathcal{P}(#1)}
+\newcommand{\getreal}[1]{\text{Re}(#1)}
+\newcommand{\dual}{\varepsilon}
+\newcommand{\vector}{\operatorname{vec}}
+\newcommand{\rank}{\operatorname{rank}}</script>
+
+<h1 id="cheat-sheet">Cheat Sheet</h1>
+
+<h2 id="basic-dual-quaternion-definitions">Basic Dual Quaternion Definitions</h2>
+
+<p>The dual number algebra is based on the element <script type="math/tex">\dual</script> introduced by Clifford. It has the following property</p>
+
+<script type="math/tex; mode=display">\dual \neq 0 \text{ but } \dual^2=0.</script>
+
+<h2 id="unary-operators">Unary Operators</h2>
+
+<p>The dual quaternion <script type="math/tex">\dq h \in  \mathcal{H}</script> is a dual number whose elements are quaternions, that is</p>
+
+<script type="math/tex; mode=display">\dq h=\quat h_{1}+\epsilon\quat h_{2}.</script>
+
+<h3 id="real-part">Real Part</h3>
+
+<script type="math/tex; mode=display">\getreal{\dq h}\triangleq\getreal{\getprimary{\dq h}}+\dual\getreal{\getdual{\dq h}}.</script>
+
+<h3 id="pure-part">Pure Part</h3>
+
+<script type="math/tex; mode=display">\getprimary{\dq h}	\triangleq\quat{h_{1}}.</script>
+
+<h3 id="dual-part">Dual Part</h3>
+
+<script type="math/tex; mode=display">\getdual{\dq h}	\triangleq\quat{h_{2}}.</script>
+
+<h2 id="binary-operators">Binary Operators</h2>
+
+<p>Operations between two dual quaternions, <script type="math/tex">\dq h</script> and <script type="math/tex">\dq h'</script>.</p>
+
+<h3 id="additionsubtration">Addition/Subtration</h3>
+
+<script type="math/tex; mode=display">\dq h\pm\dq{h^{'}}=\getprimary{\dq h}\pm\getprimary{\dq{h^{'}}}+\dual(\getdual{\dq h}\pm\getdual{\dq{h^{'}}}).</script>
+
+<h3 id="multiplication">Multiplication</h3>
+
+<script type="math/tex; mode=display">\dq h\dq{h^{'}}=\getprimary{\dq h}\getprimary{\dq{h^{'}}}+\dual(\getprimary{\dq h}\getdual{\dq{h^{'}}}+\getdual{\dq h}\getprimary{\dq{h^{'}}}).</script>
+
+<h3 id="hamilton-operators">Hamilton Operators</h3>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\overset{+}{\mymatrix H}(\dq h)=\begin{bmatrix}\overset{+}{\mymatrix H}(\getprimary{\dq h}) & 0\\
+\overset{+}{\mymatrix H}(\getdual{\dq h}) & \overset{+}{\mymatrix H}(\getprimary{\dq h})
+\end{bmatrix},	\hspace{1cm}	\overset{-}{\mymatrix H}(\dq{h^{'}})=\begin{bmatrix}\overset{-}{\mymatrix H}(\getprimary{\dq{h^{'}}}) & 0\\
+\overset{-}{\mymatrix H}(\getdual{\dq{h^{'}}}) & \overset{-}{\mymatrix H}(\getprimary{\dq h^{'}})
+\end{bmatrix}, %]]></script>
+
+<p>so that</p>
+
+<script type="math/tex; mode=display">\text{vec}(\dq h\dq h^{'})=\overset{+}{\mymatrix H}(\dq h)\text{vec}(\dq h^{'})=\overset{-}{\mymatrix H}(\dq{h^{'}})\text{vec}(\dq h).</script>
+
+<p>Use the operators <script type="math/tex">hamiplus8()</script> and <script type="math/tex">haminus8()</script> in MATLAB and C++.</p>
+
+<h3 id="conjugate">Conjugate</h3>
+
+<script type="math/tex; mode=display">\dq h^{*}\triangleq\getprimary{\dq h}^{*}+\dual\getdual{\dq h}^{*}.</script>
+
+<p>In MATLAB you can use the ‘ operator. In C++, use the <script type="math/tex">conj()</script> operator instead.</p>
+
+
+
+          <footer>
+          DQ robotics is brought to you by <a href="http://sourceforge.net/u/bvadorno/">bvadorno</a>, <a href="http://sourceforge.net/u/murilomarinho/">murilomarinho</a><br>
+          Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+
+
+</body>
+</html>
