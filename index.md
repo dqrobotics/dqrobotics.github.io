@@ -12,12 +12,10 @@ svn checkout http://svn.code.sf.net/p/dqrobotics/code/trunk dqrobotics
 
 #What is DQ Robotics?
 
-DQ Robotics is a stand alone open-source Robotics library. It provides [dual quaternion]("http://en.wikipedia.org/wiki/Dual_quaternion") algebra, kinematic calculation algorithms in MATLAB and C++ that can be applied in robot control. The library has a catkin package wrapper for use in [ROS Indigo](http://wiki.ros.org/indigo/Installation/Ubuntu), and also provides a [V-REP](http://www.coppeliarobotics.com/") interface.
+DQ Robotics is a standalone open-source robotics library. It provides [dual quaternion](http://en.wikipedia.org/wiki/Dual_quaternion) algebra and kinematic calculation algorithms in MATLAB and C++ that can be applied to robot modeling and control. The library has a catkin package wrapper for use in [ROS Indigo](http://wiki.ros.org/indigo/Installation/Ubuntu), and also provides a [V-REP](http://www.coppeliarobotics.com/) interface.
 
 Report any issues you might have with the installation and usage at the [issue tracker](http://sourceforge.net/p/dqrobotics/tickets/)
 
-<!--There are several published research papers that used DQ robotics: [[1]](http://www.sbai2013.ufc.br/pdfs/7359.pdf), [[2]](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6913799), -->
-<hr />
 
 ##Installation
 
@@ -25,12 +23,11 @@ Report any issues you might have with the installation and usage at the [issue t
 In order to use DQ Robotics on your MATLAB installation, and supposing you did the checkout at **[PATH_TO_DQ_ROBOTICS_FOLDER]**, just add
 
 {% highlight sh %}
-[PATH_TO_DQ_ROBOTICS_FOLDER]/ROS/dq_robotics
+[PATH_TO_DQ_ROBOTICS_FOLDER]/matlab/dq_robotics
 {% endhighlight %}
 
 and subfolders to your MATLAB path.
 
-The library is stand alone, but some examples use the [Robotics Toolbox](http://www.petercorke.com/Robotics_Toolbox.html">Robotics Toolbox)
 
 ###C++
 The official support is for Ubuntu only. However, it should work out-of-the-box in any system in which you can install [Eigen3](http://eigen.tuxfamily.org/index.php?title=Main_Page).
@@ -63,7 +60,7 @@ In order to use it, copy the catkin package
 
 to your catkin workspace. If you installed Eigen3 as described in the last step, it should compile without problems.
 
-There’s an example catkin package that uses the dq_robotics catkin package
+There is an example catkin package that uses the dq_robotics catkin package
 
 {% highlight sh %}
 [PATH_TO_DQ_ROBOTICS_FOLDER]/dq_robotics/ROS/dq_robotics_example
