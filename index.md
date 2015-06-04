@@ -12,7 +12,7 @@ svn checkout http://svn.code.sf.net/p/dqrobotics/code/trunk dqrobotics
 
 #What is DQ Robotics?
 
-DQ Robotics is a standalone open-source robotics library. It provides [dual quaternion](http://en.wikipedia.org/wiki/Dual_quaternion) algebra and kinematic calculation algorithms in MATLAB and C++ that can be applied to robot modeling and control. The library has a catkin package wrapper for use in [ROS Indigo](http://wiki.ros.org/indigo/Installation/Ubuntu), and also provides a [V-REP](http://www.coppeliarobotics.com/) interface.
+DQ Robotics is a standalone open-source (LGPLv3) robotics library. It provides [dual quaternion](http://en.wikipedia.org/wiki/Dual_quaternion) algebra and kinematic calculation algorithms in MATLAB, Python and C++ that can be applied to robot modeling and control. The library has a catkin package wrapper for use in [ROS Indigo](http://wiki.ros.org/indigo/Installation/Ubuntu), and also provides a [V-REP](http://www.coppeliarobotics.com/) interface.
 
 Report any issues you might have with the installation and usage at the [issue tracker](http://sourceforge.net/p/dqrobotics/tickets/)
 
@@ -27,6 +27,17 @@ In order to use DQ Robotics on your MATLAB installation, and supposing you did t
 {% endhighlight %}
 
 and subfolders to your MATLAB path.
+
+###Python
+The library depends on [numpy](http://www.numpy.org/) only. However, the examples also use [scipy](http://www.scipy.org/).
+
+The recommended Python version is 3.5+, so that you can use the @ operator as a matrix product in numpy.
+
+You can either install the library using the setup script, or import it directly in your script:
+{% highlight python %}
+from DQ import *
+from DQ_robotics import *
+{% endhighlight %}
 
 
 ###C++
