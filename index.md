@@ -2,7 +2,7 @@
 layout: default
 
 ---
-###…or download it through svn
+### …or download it through svn
 
 {% highlight sh %}
 svn checkout http://svn.code.sf.net/p/dqrobotics/code/trunk dqrobotics
@@ -10,16 +10,29 @@ svn checkout http://svn.code.sf.net/p/dqrobotics/code/trunk dqrobotics
 
 <hr />
 
-#What is DQ Robotics?
+# What is DQ Robotics?
 
-DQ Robotics is a standalone open-source (LGPLv3) robotics library. It provides [dual quaternion](http://en.wikipedia.org/wiki/Dual_quaternion) algebra and kinematic calculation algorithms in MATLAB, Python and C++ that can be applied to robot modeling and control. The library has a catkin package wrapper for use in [ROS Indigo](http://wiki.ros.org/indigo/Installation/Ubuntu), and also provides a [V-REP](http://www.coppeliarobotics.com/) interface.
+DQ Robotics is a standalone open-source (LGPLv3) library for robot modelling and control. It provides [dual quaternion](http://en.wikipedia.org/wiki/Dual_quaternion) algebra and kinematic calculation algorithms in MATLAB and C++.
 
 Report any issues you might have with the installation and usage at the [issue tracker](http://sourceforge.net/p/dqrobotics/tickets/)
 
+## Installation
 
-##Installation
+### C++
+The official support is for Ubuntu 16.04/18.04 LTS using our [PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
 
-###MATLAB
+{% highlight sh %}
+sudo add-apt-repository ppa:dqrobotics-dev/release
+sudo apt-get update
+sudo apt-get install libdqrobotics
+{% endhighlight %}
+
+After adding the PPA, DQ Robotics updates can be obtained with a regular call to
+{% highlight sh %}
+sudo apt-get update
+{% endhighlight %}
+
+### MATLAB
 In order to use DQ Robotics on your MATLAB installation, and supposing you did the checkout at **[PATH_TO_DQ_ROBOTICS_FOLDER]**, just add
 
 {% highlight sh %}
@@ -27,55 +40,3 @@ In order to use DQ Robotics on your MATLAB installation, and supposing you did t
 {% endhighlight %}
 
 and subfolders to your MATLAB path.
-
-###Python
-The library depends on [numpy](http://www.numpy.org/) only. However, the examples also use [scipy](http://www.scipy.org/).
-
-The recommended Python version is 3.5+, so that you can use the @ operator as a matrix product in numpy.
-
-You can either install the library using the setup script, or import it directly in your script:
-{% highlight python %}
-from DQ import *
-from DQ_robotics import *
-{% endhighlight %}
-
-
-###C++
-The official support is for Ubuntu only. However, it should work out-of-the-box in any system in which you can install [Eigen3](http://eigen.tuxfamily.org/index.php?title=Main_Page).
-
-First install Eigen3 and create a symbolic link of Eigen3 in your user include folder:
-
-{% highlight sh %}
-sudo apt-get install libeigen3-dev
-sudo ln -s /usr/include/eigen3/Eigen/ /usr/local/include/
-{% endhighlight %}
-
-Compile the examples by doing:
-
-{% highlight sh %}
-cd [PATH_TO_DQ_ROBOTICS_FOLDER]/C++/examples
-make all
-{% endhighlight %}
-
-If there are no errors, you’re set to use the files in your own projects! You can also create your own files in the example folder and add them to the MAKEFILE for compilation.
-
-###ROS
-
-There is a catkin ROS package available in the distribution. The latest build has been tested with [ROS Indigo](http://wiki.ros.org/indigo/Installation/Ubuntu) and [Ubuntu 14.04 LTS](http://www.ubuntu.com/download/desktop).
-
-In order to use it, copy the catkin package
-
-{% highlight sh %}
-[PATH_TO_DQ_ROBOTICS_FOLDER]/dq_robotics/ROS/dq_robotics
-{% endhighlight %}
-
-to your catkin workspace. If you installed Eigen3 as described in the last step, it should compile without problems.
-
-There is an example catkin package that uses the dq_robotics catkin package
-
-{% highlight sh %}
-[PATH_TO_DQ_ROBOTICS_FOLDER]/dq_robotics/ROS/dq_robotics_example
-{% endhighlight %}
-
-Use it as a reference when creating packages that depend on dq_robotics.
-
