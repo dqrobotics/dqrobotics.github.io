@@ -18,7 +18,7 @@ Report any issues you might have with the installation and usage at the [issue t
 
 ## Installation
 
-### C++
+### Ubuntu/C++
 The official support is for Ubuntu 16.04/18.04 LTS using our [PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
 
 {% highlight sh %}
@@ -27,10 +27,7 @@ sudo apt-get update
 sudo apt-get install libdqrobotics
 {% endhighlight %}
 
-After adding the PPA, DQ Robotics updates can be obtained with a regular call to
-{% highlight sh %}
-sudo apt-get update
-{% endhighlight %}
+All library updates will be delivered together with your regular Ubuntu updates.
 
 ### MATLAB
 In order to use DQ Robotics on your MATLAB installation, and supposing you did the checkout at **[PATH_TO_DQ_ROBOTICS_FOLDER]**, just add
@@ -40,3 +37,9 @@ In order to use DQ Robotics on your MATLAB installation, and supposing you did t
 {% endhighlight %}
 
 and subfolders to your MATLAB path.
+
+## Building from source in your favorite OS
+
+There is no official support for other operating systems besides Ubuntu.
+
+However, you should be able to build from source as long as you have [Eigen3](http://eigen.tuxfamily.org/index.php?title=Main_Page) and [CMake](https://cmake.org/).
