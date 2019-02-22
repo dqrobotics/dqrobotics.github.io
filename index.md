@@ -29,6 +29,19 @@ sudo apt-get install libdqrobotics
 
 All library updates will be delivered together with your regular Ubuntu updates.
 
+#### Including and linking the library in your C++ projects
+After installing the library through the PPA, the relevant headers are
+
+{% highlight cpp %}
+#include <dqrobotics/DQ.h>
+#include <dqrobotics/DQ_kinematics.h>
+{% endhighlight %}
+
+Linking can be done using -ldqrobotics. For example, using CMAKE, 
+{% highlight cmake %}
+target_link_libraries(my_binary -ldqrobotics)
+{% endhighlight %}
+
 ### MATLAB
 In order to use DQ Robotics on your MATLAB installation, and supposing you did the checkout at **[PATH_TO_DQ_ROBOTICS_FOLDER]**, just add
 
