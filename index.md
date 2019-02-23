@@ -2,10 +2,10 @@
 layout: default
 
 ---
-### …or download it through svn
-
+### …or clone the repos
 {% highlight sh %}
-svn checkout http://svn.code.sf.net/p/dqrobotics/code/trunk dqrobotics
+git clone https://github.com/dqrobotics/matlab.git
+git clone https://github.com/dqrobotics/cpp.git
 {% endhighlight %}
 
 <hr />
