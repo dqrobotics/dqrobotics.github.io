@@ -5,10 +5,14 @@ layout: default
 
 ### …or clone the repos
 
-{% highlight sh %}
+```bash
+
 git clone https://github.com/dqrobotics/matlab.git
 git clone https://github.com/dqrobotics/cpp.git
-{% endhighlight %}
+
+```
+
+
 
 <hr />
 
@@ -24,11 +28,13 @@ Report any issues you might have with the installation and usage at the [issue t
 
 The official support is for Ubuntu 16.04/18.04 LTS using our [PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
 
-{% highlight sh %}
+```bash
+
 sudo add-apt-repository ppa:dqrobotics-dev/release
 sudo apt-get update
 sudo apt-get install libdqrobotics
-{% endhighlight %}
+
+```
 
 All library updates will be delivered together with your regular Ubuntu updates.
 
@@ -36,9 +42,8 @@ All library updates will be delivered together with your regular Ubuntu updates.
 
 After installing the library through the PPA, the relevant headers are
 
-{% highlight cpp %}
-
 ```cpp
+
 #include <dqrobotics/DQ.h>
 #include <dqrobotics/DQ_kinematics.h>
 
