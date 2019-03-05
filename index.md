@@ -58,6 +58,18 @@ In order to use DQ Robotics on your MATLAB installation, and supposing you did t
 
 and subfolders to your MATLAB path.
 
+### Python
+
+*The new Python version is still experimental. It is not recommended for production yet.*
+
+We offer Python bindings to the C++ library in order to ensure high performance and facilitate the development-to-production cycle. In order to use DQ Robotics in Python 2 or Python 3,  open a terminal and type (replace python by python3 if you want to use Python 3)
+
+```
+```python
+python -m pip install dqrobotics
+```
+```
+
 ## Building from source in your favorite OS
 
 There is no official support for other operating systems besides Ubuntu.
