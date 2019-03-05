@@ -38,23 +38,29 @@ After installing the library through the PPA, the relevant headers are
 
 {% highlight cpp %}
 
+```cpp
 #include <dqrobotics/DQ.h>
-
 #include <dqrobotics/DQ_kinematics.h>
-{% endhighlight %}
+
+```
 
 Linking can be done using -ldqrobotics. For example, using CMAKE, 
-{% highlight cmake %}
+
+```makefile
+
 target_link_libraries(my_binary -ldqrobotics)
-{% endhighlight %}
+
+```
 
 ### MATLAB
 
 In order to use DQ Robotics on your MATLAB installation, and supposing you did the checkout at **[PATH_TO_DQ_ROBOTICS_FOLDER]**, just add
 
-{% highlight sh %}
+```bash
+
 [PATH_TO_DQ_ROBOTICS_FOLDER]/matlab/
-{% endhighlight %}
+
+```
 
 and subfolders to your MATLAB path.
 
@@ -64,10 +70,10 @@ and subfolders to your MATLAB path.
 
 We offer Python bindings to the C++ library in order to ensure high performance and facilitate the development-to-production cycle. In order to use DQ Robotics in Python 2 or Python 3,  open a terminal and type (replace python by python3 if you want to use Python 3)
 
-```
-```python
+```bash
+
 python -m pip install dqrobotics
-```
+
 ```
 
 ## Building from source in your favorite OS
