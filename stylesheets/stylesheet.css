@@ -168,9 +168,9 @@ a.button span {
 #report-bug span {
   background: transparent url(../images/exclamation-icon.png) 12px 50% no-repeat;
 }
-#report-bug {
+/*#report-bug {
   margin-right: 0;
-}
+}*/
 
 #tutorials span {
   background: transparent url(../images/quote.png) 12px 50% no-repeat;
