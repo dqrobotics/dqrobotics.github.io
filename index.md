@@ -48,6 +48,12 @@ Linking can be done using -ldqrobotics. For example, using CMAKE,
 target_link_libraries(my_binary -ldqrobotics)
 ```
 
+#### Building C++ from source in your favorite OS
+
+There is no official C++ support for other operating systems besides Ubuntu.
+
+However, you should be able to build from source as long as you have [Eigen3](http://eigen.tuxfamily.org/index.php?title=Main_Page) and [CMake](https://cmake.org/).
+
 ### MATLAB
 
 In order to use DQ Robotics on your MATLAB installation, and supposing you did the checkout at **[PATH_TO_DQ_ROBOTICS_FOLDER]**, just add
@@ -60,20 +66,16 @@ and subfolders to your MATLAB path.
 
 Type `help DQ` or `doc DQ`  to see the embedded documentation and all available functions.
 
-### Python
+### Ubuntu/Python
 
-*The new Python version is still experimental. It is not recommended for production yet.*
+*The new Python version is still experimental and will only support Ubuntu 16.04/18.04 LTS. It is not recommended for production yet.*
 
-We offer Python bindings to the C++ library in order to ensure high performance and facilitate the development-to-production cycle. In order to use DQ Robotics in Python 2 or Python 3,  open a terminal and type (replace python by python3 if you want to use Python 3)
+We offer Python bindings for Ubuntu 16.04/18.04 LTS to the C++ library in order to ensure high performance and facilitate the development-to-production cycle. In order to use DQ Robotics in Python 2 or Python 3,  open a terminal and type (replace python by python3 if you want to use Python 3)
 
 ```bash
 python -m pip install dqrobotics
 ```
 
-## Building from source in your favorite OS
 
-There is no official support for other operating systems besides Ubuntu.
-
-However, you should be able to build from source as long as you have [Eigen3](http://eigen.tuxfamily.org/index.php?title=Main_Page) and [CMake](https://cmake.org/).
 
 
