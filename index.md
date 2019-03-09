@@ -23,7 +23,7 @@ Report any issues you might have with the installation and usage at the [issue t
 
 ### Ubuntu/C++
 
-The official support is for Ubuntu 16.04/18.04 LTS using our [PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
+The official support is for Ubuntu 16.04/18.04 LTS using our [Stable PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
 
 ```bash
 sudo add-apt-repository ppa:dqrobotics-dev/release
@@ -46,6 +46,15 @@ Linking can be done using -ldqrobotics. For example, using CMAKE,
 
 ```makefile
 target_link_libraries(my_binary -ldqrobotics)
+```
+#### Daily builds PPA
+
+Daily builds of the most recent version of the library are available at our [Development PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/development).
+
+```bash
+sudo add-apt-repository ppa:dqrobotics-dev/development
+sudo apt-get update
+sudo apt-get install libdqrobotics
 ```
 
 #### Building C++ from source in your favorite OS
