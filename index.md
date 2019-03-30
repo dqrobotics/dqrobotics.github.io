@@ -6,9 +6,9 @@ layout: default
 ### …or clone the repos
 
 ```bash
-
 git clone https://github.com/dqrobotics/matlab.git
 git clone https://github.com/dqrobotics/cpp.git
+git clone https://github.com/dqrobotics/python.git
 ```
 
 <hr />
