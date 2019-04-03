@@ -87,14 +87,10 @@ You can get updates with
 python3 -m pip install dqrobotics --upgrade
 ```
 
-{{site.data.alerts.warning}}
-The Python package is still experimental. It is not recommended for production yet.
-{{site.data.alerts.end}}
+**Remarks**
+1. The Python package is still experimental. It is not recommended for production yet.
+2. Python 2 [will retire soon](https://pythonclock.org/). We only support Python 3.
 
-{% include warning.html content="This is my warning." %}
-
-Python 2 [will retire soon](https://pythonclock.org/). We only support Python 3.
-{: .alert .alert-warning}
 
 
 
