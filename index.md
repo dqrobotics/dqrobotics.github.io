@@ -19,7 +19,7 @@ DQ Robotics is a standalone open-source (LGPLv3) library for robot modelling and
 
 ## Installation
 
-### Ubuntu/C++
+### Ubuntu/C++ [![Build Status](https://travis-ci.com/dqrobotics/cpp.svg?branch=master)](https://travis-ci.com/dqrobotics/cpp)
 
 The official support is for Ubuntu 16.04/18.04 LTS using our [Stable PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
 
@@ -73,15 +73,25 @@ and subfolders to your MATLAB path.
 
 Type `help DQ` or `doc DQ`  to see the embedded documentation and all available functions.
 
-### Ubuntu/Python
+### Ubuntu/Python [![Build Status](https://travis-ci.com/dqrobotics/python.svg?branch=master)](https://travis-ci.com/dqrobotics/python) [![PyPI version](https://badge.fury.io/py/dqrobotics.svg)](https://badge.fury.io/py/dqrobotics)
 
-*The new Python version is still experimental and will only support Ubuntu 16.04/18.04 LTS. It is not recommended for production yet.*
-
-We offer Python bindings for Ubuntu 16.04/18.04 LTS to the C++ library in order to ensure high performance and facilitate the development-to-production cycle. In order to use DQ Robotics in Python 2 or Python 3,  open a terminal and type (replace python by python3 if you want to use Python 3)
+We offer Python bindings for Ubuntu 16.04/18.04 LTS to the C++ library in order to ensure high performance and facilitate the development-to-production cycle. In order to use DQ Robotics Python 3, open a terminal and type 
 
 ```bash
-python -m pip install dqrobotics
+python3 -m pip install dqrobotics
 ```
+
+You can get updates with
+
+```bash
+python3 -m pip install dqrobotics --upgrade
+```
+
+The Python package is still experimental. It is not recommended for production yet.
+{: .alert .alert-warning}
+
+Python 2 [will retire soon](https://pythonclock.org/). We only support Python 3.
+{: .alert .alert-warning}
 
 
 
