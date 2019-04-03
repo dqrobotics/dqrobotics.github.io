@@ -2,7 +2,7 @@
 layout: default
 
 ---
-
+{::options parse_block_html="true" /}
 ### …or clone the repos
 
 ```bash
