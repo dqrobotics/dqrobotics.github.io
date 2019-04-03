@@ -2,7 +2,7 @@
 layout: default
 
 ---
-{::options parse_block_html="true" /}
+
 ### …or clone the repos
 
 ```bash
@@ -87,8 +87,9 @@ You can get updates with
 python3 -m pip install dqrobotics --upgrade
 ```
 
+{{site.data.alerts.warning}}
 The Python package is still experimental. It is not recommended for production yet.
-{: .alert .alert-warning}
+{{site.data.alerts.end}}
 
 Python 2 [will retire soon](https://pythonclock.org/). We only support Python 3.
 {: .alert .alert-warning}
