@@ -15,7 +15,7 @@ git clone https://github.com/dqrobotics/python.git
 
 # What is DQ Robotics?
 
-DQ Robotics is a standalone open-source (LGPLv3) library for robot modelling and control. It provides [dual quaternion](http://en.wikipedia.org/wiki/Dual_quaternion) algebra and kinematic calculation algorithms in MATLAB and C++.
+DQ Robotics is a standalone open-source ([LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html)) library for robot modelling and control. It provides [dual quaternion](http://en.wikipedia.org/wiki/Dual_quaternion) algebra and kinematic calculation algorithms in MATLAB and C++.
 
 ## Installation
 
