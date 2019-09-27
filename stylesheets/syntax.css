@@ -10,7 +10,7 @@
 .gd { color: #A00000 } /* Generic.Deleted */
 .ge { font-style: italic } /* Generic.Emph */
 .gr { color: #FF0000 } /* Generic.Error */
-.gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.gh { color: #00AAFF; font-weight: bold } /* Generic.Heading */
 .gi { color: #00A000 } /* Generic.Inserted */
 .go { color: #888888 } /* Generic.Output */
 .gp { color: #c65d09; font-weight: bold } /* Generic.Prompt */
