@@ -10,7 +10,7 @@
 .gd { color: #A00000 } /* Generic.Deleted */
 .ge { font-style: italic } /* Generic.Emph */
 .gr { color: #FF0000 } /* Generic.Error */
-.gh { color: #00AAFF; font-weight: bold } /* Generic.Heading */
+.gh { color: #000080; font-weight: bold } /* Generic.Heading */
 .gi { color: #00A000 } /* Generic.Inserted */
 .go { color: #888888 } /* Generic.Output */
 .gp { color: #c65d09; font-weight: bold } /* Generic.Prompt */
@@ -35,7 +35,7 @@
 .nf { color: #06287e } /* Name.Function */
 .nl { color: #002070; font-weight: bold } /* Name.Label */
 .nn { color: #0e84b5; font-weight: bold } /* Name.Namespace */
-.nt { color: #062873; font-weight: bold } /* Name.Tag */
+.nt { color: #00AAFF; font-weight: bold } /* Name.Tag */
 .nv { color: #bb60d5 } /* Name.Variable */
 .ow { color: #007020; font-weight: bold } /* Operator.Word */
 .w { color: #bbbbbb } /* Text.Whitespace */
