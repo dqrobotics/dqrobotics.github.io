@@ -101,16 +101,6 @@ Interface packages might also require linking. For instance, the V-REP interface
 target_link_libraries(my_binary -ldqrobotics -ldqrobotics-interface-vrep)
 ```
 
-#### Daily builds PPA
-
-Daily builds of the most recent version of the library are available at our [Development PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/development).
-
-```bash
-sudo add-apt-repository ppa:dqrobotics-dev/development
-sudo apt-get update
-sudo apt-get install libdqrobotics
-```
-
 #### Building C++ from source in your favorite OS
 
 There is no official C++ support for other operating systems besides Ubuntu.
