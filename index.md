@@ -25,7 +25,7 @@ DQ Robotics is a standalone open-source ([LGPLv3](https://www.gnu.org/licenses/l
 ### Ubuntu/Python [![Build Status](https://travis-ci.com/dqrobotics/python.svg?branch=master)](https://travis-ci.com/dqrobotics/python) [![PyPI version](https://badge.fury.io/py/dqrobotics.svg)](https://badge.fury.io/py/dqrobotics)
 (Python 2 [will retire soon](https://pythonclock.org/). We only support Python 3.)
 
-We offer Python bindings for Ubuntu 16.04/18.04 LTS to the C++ library in order to ensure high performance and facilitate the development-to-production cycle. In order to use DQ Robotics Python 3, open a terminal and type 
+We offer Python bindings for Ubuntu 16.04/18.04 LTS to the C++11 library in order to ensure high performance and facilitate the development-to-production cycle. In order to use DQ Robotics Python 3, open a terminal and type 
 
 ```bash
 python3 -m pip install --user dqrobotics
