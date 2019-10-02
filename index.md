@@ -19,6 +19,32 @@ DQ Robotics is a standalone open-source ([LGPLv3](https://www.gnu.org/licenses/l
 
 ## Installation
 
+### Ubuntu/Python [![Build Status](https://travis-ci.com/dqrobotics/python.svg?branch=master)](https://travis-ci.com/dqrobotics/python) [![PyPI version](https://badge.fury.io/py/dqrobotics.svg)](https://badge.fury.io/py/dqrobotics)
+(Python 2 [will retire soon](https://pythonclock.org/). We only support Python 3.)
+
+We offer Python bindings for Ubuntu 16.04/18.04 LTS to the C++ library in order to ensure high performance and facilitate the development-to-production cycle. In order to use DQ Robotics Python 3, open a terminal and type 
+
+```bash
+python3 -m pip install --user dqrobotics
+```
+
+You can get updates with
+
+```bash
+python3 -m pip install --user dqrobotics --upgrade
+```
+### MATLAB
+
+In order to use DQ Robotics on your MATLAB installation, and supposing you did the checkout at **[PATH_TO_DQ_ROBOTICS_FOLDER]**, just add
+
+```bash
+[PATH_TO_DQ_ROBOTICS_FOLDER]/matlab/
+```
+
+and subfolders to your MATLAB path.
+
+Type `help DQ` or `doc DQ`  to see the embedded documentation and all available functions.
+
 ### Ubuntu/C++ [![Build Status](https://travis-ci.com/dqrobotics/cpp.svg?branch=master)](https://travis-ci.com/dqrobotics/cpp)
 
 The official support is for Ubuntu 16.04/18.04 LTS using our [Stable PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
@@ -30,6 +56,24 @@ sudo apt-get install libdqrobotics
 ```
 
 All library updates will be delivered together with your regular Ubuntu updates.
+
+#### Interface packages
+
+Interfaces of DQ Robotics with other libraries are available as separate packages in the PPA, and they can be listed with
+
+```bash
+sudo apt-get update
+apt-cache search libdqrobotics*
+```
+For instance, the interface between DQ Robotics and [V-REP](http://www.coppeliarobotics.com/) can be downloaded with
+```bash
+sudo apt-get install libdqrobotics-interface-vrep
+```
+and the interface between DQ Robotics and [CPLEX](https://www.ibm.com/jp-ja/products/ilog-cplex-optimization-studio) with
+```bash
+sudo apt-get install libdqrobotics-interface-cplex
+```
+Each package might require extra configuration and for that refer to their individual Github pages.
 
 #### Including and linking the library in your C++ projects
 
@@ -48,6 +92,11 @@ Linking can be done using -ldqrobotics. For example, using CMAKE,
 ```makefile
 target_link_libraries(my_binary -ldqrobotics)
 ```
+Interface packages might also require linking. For instance, the V-REP interface requires:
+```makefile
+target_link_libraries(my_binary -ldqrobotics -ldqrobotics-interface-vrep)
+```
+
 #### Daily builds PPA
 
 Daily builds of the most recent version of the library are available at our [Development PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/development).
@@ -64,35 +113,9 @@ There is no official C++ support for other operating systems besides Ubuntu.
 
 However, you should be able to build from source as long as you have [Eigen3](http://eigen.tuxfamily.org/index.php?title=Main_Page) and [CMake](https://cmake.org/).
 
-### MATLAB
-
-In order to use DQ Robotics on your MATLAB installation, and supposing you did the checkout at **[PATH_TO_DQ_ROBOTICS_FOLDER]**, just add
-
-```bash
-[PATH_TO_DQ_ROBOTICS_FOLDER]/matlab/
-```
-
-and subfolders to your MATLAB path.
-
-Type `help DQ` or `doc DQ`  to see the embedded documentation and all available functions.
-
-### Ubuntu/Python [![Build Status](https://travis-ci.com/dqrobotics/python.svg?branch=master)](https://travis-ci.com/dqrobotics/python) [![PyPI version](https://badge.fury.io/py/dqrobotics.svg)](https://badge.fury.io/py/dqrobotics)
-
-We offer Python bindings for Ubuntu 16.04/18.04 LTS to the C++ library in order to ensure high performance and facilitate the development-to-production cycle. In order to use DQ Robotics Python 3, open a terminal and type 
-
-```bash
-python3 -m pip install --user dqrobotics
-```
-
-You can get updates with
-
-```bash
-python3 -m pip install --user dqrobotics --upgrade
-```
-
-**Remarks**
-1. The Python package is still experimental. It is not recommended for production yet.
-2. Python 2 [will retire soon](https://pythonclock.org/). We only support Python 3.
+# Remarks
+1. The DQ Robotics software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfrigement.
+2. Refer to the issue tracker of each programming language if you need support. Support is given in a voluntary basis.
 
 
 
