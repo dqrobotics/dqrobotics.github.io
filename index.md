@@ -48,7 +48,7 @@ and subfolders to your MATLAB path.
 
 Type `help DQ` or `doc DQ`  to see the embedded documentation and all available functions.
 
-### Ubuntu/C++ [![Build Status](https://travis-ci.com/dqrobotics/cpp.svg?branch=master)](https://travis-ci.com/dqrobotics/cpp)
+### Ubuntu/C++11 [![Build Status](https://travis-ci.com/dqrobotics/cpp.svg?branch=master)](https://travis-ci.com/dqrobotics/cpp)
 
 The official support is for Ubuntu 16.04/18.04 LTS using our [Stable PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
 
@@ -78,7 +78,7 @@ sudo apt-get install libdqrobotics-interface-cplex
 ```
 Each package might require extra configuration and for that refer to their individual Github pages.
 
-#### Including and linking the library in your C++ projects
+#### Including and linking the library in your C++11 projects
 
 After installing the library through the PPA, you will have access to the headers:
 
@@ -89,7 +89,6 @@ After installing the library through the PPA, you will have access to the header
 #include <dqrobotics/utils/DQ_Geometry.h>
 ...
 ```
-
 Linking can be done using -ldqrobotics. For example, using CMAKE, 
 
 ```makefile
@@ -114,7 +113,7 @@ sudo apt-get install libdqrobotics
 
 There is no official C++ support for other operating systems besides Ubuntu.
 
-However, you should be able to build from source as long as you have [Eigen3](http://eigen.tuxfamily.org/index.php?title=Main_Page) and [CMake](https://cmake.org/).
+However, you should be able to build from source as long as you have [Eigen3](http://eigen.tuxfamily.org/index.php?title=Main_Page), [CMake](https://cmake.org/), and a C++11 compatible compiler.
 
 # Remarks
 1. The DQ Robotics software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfrigement.
