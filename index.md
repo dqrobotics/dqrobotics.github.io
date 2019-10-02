@@ -17,8 +17,8 @@ git clone https://github.com/dqrobotics/python.git
 
 DQ Robotics is a standalone open-source ([LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html)) library for robot modelling and control. It provides [dual quaternion](http://en.wikipedia.org/wiki/Dual_quaternion) algebra and kinematic calculation algorithms in Python3, Matlab, and C++11.
 - Most users will benefit from using the [Python3](#ubuntu-python3) version at first.
-- Use the [MATLAB](https://www.mathworks.com/) version of you have access to the MathWorks software.
-- Use the C++11 version for real-time high-performance applications.
+- Use the [MATLAB](#matlab) version of you have access to the [MathWorks software](https://www.mathworks.com/).
+- Use the [C++11 version](#ubuntu-c++11) for real-time high-performance applications.
 
 ## Installation
 
@@ -52,7 +52,7 @@ and subfolders to your MATLAB path.
 
 Type `help DQ` or `doc DQ`  to see the embedded documentation and all available functions.
 
-### Ubuntu/C++11 [![Build Status](https://travis-ci.com/dqrobotics/cpp.svg?branch=master)](https://travis-ci.com/dqrobotics/cpp)
+### Ubuntu-C++11 [![Build Status](https://travis-ci.com/dqrobotics/cpp.svg?branch=master)](https://travis-ci.com/dqrobotics/cpp)
 
 The official support is for Ubuntu 16.04/18.04 LTS using our [Stable PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
 
