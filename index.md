@@ -78,13 +78,13 @@ Type `help DQ` or `doc DQ`  to see the embedded documentation and all available 
 We offer Python bindings for Ubuntu 16.04/18.04 LTS to the C++ library in order to ensure high performance and facilitate the development-to-production cycle. In order to use DQ Robotics Python 3, open a terminal and type 
 
 ```bash
-python3 -m pip install dqrobotics
+python3 -m pip install --user dqrobotics
 ```
 
 You can get updates with
 
 ```bash
-python3 -m pip install dqrobotics --upgrade
+python3 -m pip install --user dqrobotics --upgrade
 ```
 
 **Remarks**
