@@ -52,7 +52,8 @@ and subfolders to your MATLAB path.
 
 Type `help DQ` or `doc DQ`  to see the embedded documentation and all available functions.
 
-### Ubuntu-C++11 [![Build Status](https://travis-ci.com/dqrobotics/cpp.svg?branch=master)](https://travis-ci.com/dqrobotics/cpp)
+### Ubuntu-C++11 
+[![Build Status](https://travis-ci.com/dqrobotics/cpp.svg?branch=master)](https://travis-ci.com/dqrobotics/cpp)
 
 The official support is for Ubuntu 16.04/18.04 LTS using our [Stable PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
 
