@@ -33,11 +33,14 @@ All library updates will be delivered together with your regular Ubuntu updates.
 
 #### Including and linking the library in your C++ projects
 
-After installing the library through the PPA, the relevant headers are
+After installing the library through the PPA, you will have access to the headers:
 
 ```cpp
 #include <dqrobotics/DQ.h>
-#include <dqrobotics/DQ_kinematics.h>
+#include <dqrobotics/robot_modeling/DQ_kinematics.h>
+#include <dqrobotics/robot_modeling/DQ_SerialManipulator.h>
+#include <dqrobotics/utils/DQ_Geometry.h>
+...
 ```
 
 Linking can be done using -ldqrobotics. For example, using CMAKE, 
