@@ -48,13 +48,31 @@ The DQ Robotics Python3 is made of Python bindings (using [pybind11](https://git
 
 ### MATLAB
 
-In order to use DQ Robotics on your MATLAB installation, and supposing you did the checkout at **[PATH_TO_DQ_ROBOTICS_FOLDER]**, just add
+Assuming that you already have Matlab installed on you computer, download the most recent Matlab toolbox of DQ Robotics [here](https://github.com/dqrobotics/matlab/releases/latest).
 
-```bash
+After downloading the file dqrobotics-YY-MM.mltbx, where YY-MM stands for the year and month of release, just open it and Matlab should copy the files to the folder `Toolboxes/dqrobotics-YY-MM` in your `$HOME` folder and appropriately set the Matlab path.
+
+To test if the toolbox was installed correctly, just go to the prompt and type
+
+```
+>> DQ
+ans = 
+          0     
+```
+
+If you receive an error instead, it means that the toolbox was not properly installed and should open an issue [here](https://github.com/dqrobotics/matlab/issues).
+
+#### Development branch
+
+Those wanting the results of our latest developments can checkout the master branch of the [Matlab repository](https://github.com/dqrobotics/matlab). In order to use DQ Robotics on your MATLAB installation, and supposing you did the checkout at **[PATH_TO_DQ_ROBOTICS_FOLDER]**, just add
+
+```
 [PATH_TO_DQ_ROBOTICS_FOLDER]/matlab/
 ```
 
 and subfolders to your MATLAB path.
+
+Note however, that the development branch is unstable and should not be used in production environments.
 
 Type `help DQ` or `doc DQ`  to see the embedded documentation and all available functions.
 
