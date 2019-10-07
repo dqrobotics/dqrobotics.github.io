@@ -50,15 +50,13 @@ Interfaces of DQ Robotics with other libraries are available as separate package
 
 For instance, the interface between DQ Robotics and [V-REP](http://www.coppeliarobotics.com/) can be downloaded with
 
-```bash
-sudo apt-get install libdqrobotics-interface-vrep
-```
+.. code-block:: bash
+  sudo apt-get install libdqrobotics-interface-vrep
 
 and the interface between DQ Robotics and [CPLEX](https://www.ibm.com/jp-ja/products/ilog-cplex-optimization-studio) with
 
-```bash
-sudo apt-get install libdqrobotics-interface-cplex
-```
+.. code-block:: bash
+  sudo apt-get install libdqrobotics-interface-cplex
 
 Each package might require extra configuration and for that refer to their individual Github pages.
 
