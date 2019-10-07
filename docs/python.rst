@@ -1,5 +1,8 @@
-Python3 Installation
+DQ Robotics Python
 ==================
+
+Installation
+**************
 On a compatible system, open a terminal and run:
 
 .. code-block:: bash
