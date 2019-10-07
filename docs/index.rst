@@ -2,11 +2,7 @@ Welcome to dqrobotics's documentation!
 ======================================
 
 .. toctree::
-   :maxdepth: 3
-
-   contents
-   intro
-   installation
+   :maxdepth: 2
 
 Indices and tables
 ==================
