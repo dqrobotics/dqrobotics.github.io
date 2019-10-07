@@ -26,7 +26,7 @@ After installation, you can import and use the library in your code
 
 The DQ Robotics Python3 is made of Python bindings pybind11 (https://github.com/pybind/pybind11) to the C++11 version of the library. It provides decent performance and facilitates the development-to-production cycle. 
 
-CPP11
+C++11
 ==================
 
 Release PPA
