@@ -5,7 +5,7 @@ Installation
 Python3
 *************
 
-.. highlight:: shell
+.. code-block:: bash
 
   python3 -m pip install --user dqrobotics
 
