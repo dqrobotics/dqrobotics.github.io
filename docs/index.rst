@@ -3,10 +3,14 @@ Welcome to dqrobotics's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
    intro
-   installation
+
+.. toctree::
+   :caption: Installation
+   :maxdepth: 2
+   
+   python_installation
 
 Indices and tables
 ==================
