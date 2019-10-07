@@ -5,12 +5,7 @@ Welcome to dqrobotics's documentation!
    :maxdepth: 2
 
    intro
-
-.. toctree::
-   :caption: Installation
-   :maxdepth: 2
-   
-   python
+   installation
 
 Indices and tables
 ==================
