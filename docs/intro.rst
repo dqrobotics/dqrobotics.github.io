@@ -1,9 +1,9 @@
 About this project
-==================
+#####################
 **DQ Robotics** is a standalone open-source (LGPLv3) library for robot modelling and control. 
 
 Core features
-*************
+==================
 It provides dual quaternion algebra and kinematic calculation algorithms in Python3, Matlab, and C++11.
 
 - Most users will benefit from using the Python3 version at first. It is easy and computationally efficient (C++ code runs under the hood for fast performance).
@@ -11,7 +11,7 @@ It provides dual quaternion algebra and kinematic calculation algorithms in Pyth
 - Use the C++11 version for real-time high-performance applications and if you’re not afraid of pointers.
 
 Support
-*******************
+==================
 
 1. MATLAB -> v>X
 2. Python3 & C++11 -> Ubuntu 16.04 and 18.04 LTS
