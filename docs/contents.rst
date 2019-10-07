@@ -6,10 +6,3 @@ Welcome to dqrobotics's documentation!
 
    intro
    installation
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
