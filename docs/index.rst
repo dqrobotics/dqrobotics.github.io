@@ -10,7 +10,7 @@ Welcome to dqrobotics's documentation!
    :caption: Installation
    :maxdepth: 2
    
-   python_installation
+   python
 
 Indices and tables
 ==================
