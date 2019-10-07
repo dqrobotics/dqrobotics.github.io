@@ -1,10 +1,10 @@
-#################
+############
 Installation
-#################
+############
 
-**************
+*******************
 DQ Robotics Python3
-**************
+*******************
 On a compatible system, open a terminal and run:
 
 .. code-block:: bash
@@ -42,7 +42,7 @@ The official support is for Ubuntu 16.04/18.04 LTS using our Stable PPA (https:/
 All library updates will be delivered together with your regular Ubuntu updates.
 
 Interface packages for C++11
-====
+============================
 
 Interfaces of DQ Robotics with other libraries are available as separate packages in the PPA, and they can be listed with
 
@@ -64,7 +64,7 @@ and the interface between DQ Robotics and [CPLEX](https://www.ibm.com/jp-ja/prod
 Each package might require extra configuration and for that refer to their individual Github pages.
 
 Including and linking the library in your C++11 projects
-====
+=========================================================
 
 After installing the library through the PPA, you will have access to the headers:
 
@@ -86,7 +86,7 @@ Interface packages might also require linking. For instance, the V-REP interface
   target_link_libraries(my_binary -ldqrobotics -ldqrobotics-interface-vrep)
 
 Building C++ from source in your favorite OS
-====
+=============================================
 
 There is no official C++ support for other operating systems besides Ubuntu.
 
