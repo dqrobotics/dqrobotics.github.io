@@ -31,6 +31,9 @@ The DQ Robotics Python3 is made of Python bindings pybind11 (https://github.com/
 DQ Robotics C++11
 **************
 
+Release PPA
+============================
+
 The official support is for Ubuntu 16.04/18.04 LTS using our Stable PPA (https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
 
 .. code-block:: bash
