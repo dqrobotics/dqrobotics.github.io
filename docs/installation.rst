@@ -78,13 +78,15 @@ After installing the library through the PPA, you will have access to the header
   
 Linking can be done using -ldqrobotics. For example, using CMAKE, 
 
-.. code-block:: makefile
-  target_link_libraries(my_binary -ldqrobotics)
+.. code-block:: cmake
+
+  target_link_libraries(my_binary dqrobotics)
 
 Interface packages might also require linking. For instance, the V-REP interface requires:
 
-.. code-block:: makefile
-  target_link_libraries(my_binary -ldqrobotics -ldqrobotics-interface-vrep)
+.. code-block:: cmake
+
+  target_link_libraries(my_binary dqrobotics dqrobotics-interface-vrep)
 
 Building from source in another OS
 ------------------
