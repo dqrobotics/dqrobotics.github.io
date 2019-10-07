@@ -32,7 +32,7 @@ To use DQ Robotics Python 3, open a terminal and type
 python3 -m pip install --user dqrobotics
 ```
 
-More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/installation.html#dq-robotics-python3).
+More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/installation.html#python3).
 
 ### MATLAB
 
@@ -76,50 +76,7 @@ sudo apt-get install libdqrobotics
 
 All library updates will be delivered together with your regular Ubuntu updates.
 
-#### Interface packages
-
-Interfaces of DQ Robotics with other libraries are available as separate packages in the PPA, and they can be listed with
-
-```bash
-sudo apt-get update
-apt-cache search libdqrobotics*
-```
-For instance, the interface between DQ Robotics and [V-REP](http://www.coppeliarobotics.com/) can be downloaded with
-```bash
-sudo apt-get install libdqrobotics-interface-vrep
-```
-and the interface between DQ Robotics and [CPLEX](https://www.ibm.com/jp-ja/products/ilog-cplex-optimization-studio) with
-```bash
-sudo apt-get install libdqrobotics-interface-cplex
-```
-Each package might require extra configuration and for that refer to their individual Github pages.
-
-#### Including and linking the library in your C++11 projects
-
-After installing the library through the PPA, you will have access to the headers:
-
-```cpp
-#include <dqrobotics/DQ.h>
-#include <dqrobotics/robot_modeling/DQ_kinematics.h>
-#include <dqrobotics/robot_modeling/DQ_SerialManipulator.h>
-#include <dqrobotics/utils/DQ_Geometry.h>
-...
-```
-Linking can be done using -ldqrobotics. For example, using CMAKE, 
-
-```makefile
-target_link_libraries(my_binary -ldqrobotics)
-```
-Interface packages might also require linking. For instance, the V-REP interface requires:
-```makefile
-target_link_libraries(my_binary -ldqrobotics -ldqrobotics-interface-vrep)
-```
-
-#### Building C++ from source in your favorite OS
-
-There is no official C++ support for other operating systems besides Ubuntu.
-
-However, you should be able to build from source as long as you have [Eigen3](http://eigen.tuxfamily.org/index.php?title=Main_Page), [CMake](https://cmake.org/), and a C++11 compatible compiler.
+More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/installation.html#c-11).
 
 # Remarks
 1. The DQ Robotics software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfrigement.
