@@ -14,6 +14,9 @@ The official support is for Ubuntu 16.04/18.04 LTS using our Stable-PPA_.
 
 All library updates will be delivered together with your regular Ubuntu updates.
 
+.. warning::
+  The C++11 version uses, well, C++11. If terms such as C++11, CMAKE_, PPA, and linking are unfamiliar to you, perhaps using the Python3 or MATLAB version would be better.
+
 Including
 =========
 .. note::
@@ -37,7 +40,7 @@ The headers can be added to your code in the following way
   
 Linking
 =======
-The shared objects are installed at /usr/lib and will be found naturally by the linker. For example, using CMAKE, 
+The shared objects are installed at /usr/lib and will be found naturally by the linker on Ubuntu. For example, using CMAKE, 
 
 .. code-block:: cmake
 
@@ -46,38 +49,65 @@ The shared objects are installed at /usr/lib and will be found naturally by the 
 Interface packages
 ==================
 
+.. note:: 
+   We offer support (on a voluntary basis) for the interface packages but not for the third-party software we are interfacing with. For that, refer to their vendors.
+
 Interfaces of DQ Robotics with other libraries are available as separate packages in the PPA, and they can be listed with
 
 .. code-block:: bash
   
   sudo apt-get update
   apt-cache search libdqrobotics*
+  
+V-REP_ Interface Package
+------------------------
 
-For instance, the interface between DQ Robotics and V-REP_ can be downloaded with
+The interface between DQ Robotics and V-REP_ can be downloaded with
 
 .. code-block:: bash
+
   sudo apt-get install libdqrobotics-interface-vrep
 
-and the interface between DQ Robotics and `CPLEX <https://www.ibm.com/jp-ja/products/ilog-cplex-optimization-studio>`_.
+The following headers will be installed in your system:
 
-.. code-block:: bash
-  sudo apt-get install libdqrobotics-interface-cplex
+.. code-block:: cpp
+  #include<dqrobotics/interfaces/vrep/DQ_VrepInterface.h>
+  #include<dqrobotics/interfaces/vrep/DQ_VrepRobot.h>
+  #include<dqrobotics/interfaces/vrep/robots/LBR4pVrepRobot.h>
+  #include<dqrobotics/interfaces/vrep/robots/YouBotVrepRobot.h>
 
-Interface packages might also require linking. For instance, the V-REP interface requires:
+This interface package also requires linking. Using CMAKE_, for example:
 
 .. code-block:: cmake
 
   target_link_libraries(my_binary dqrobotics dqrobotics-interface-vrep)  
 
+CPLEX_ Interface Package
+------------------------
+
+The interface between DQ Robotics and CPLEX_ is header-only and can be installed as follows:
+
+.. code-block:: bash
+  sudo apt-get install libdqrobotics-interface-cplex
+
+The following header will be installed in your system
+
+.. code-block:: cpp
+
+  #include<dqrobotics/solvers/DQ_CPLEXSolver.h>
+
+If you are using CPLEX_, you have to install, configure, and link to it according to its documentation. 
+
 Building from source in another OS
 ==================================
 
 .. warning::
-   There is no support for other operating systems besides Ubuntu LTS.
+   There is no support whatosever for other operating systems besides Ubuntu LTS.
 
-However, you might be able to build from source as long as you have Eigen3_, CMake_, and a C++11 compatible compiler. 
+You might be able to build from source as long as you have Eigen3_, CMake_, and a C++11 compatible compiler. 
 
 .. _Stable-PPA: https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release
 .. _V-REP: http://www.coppeliarobotics.com/
 .. _Eigen3: http://eigen.tuxfamily.org/index.php?title=Main_Page
 .. _CMake: https://cmake.org/
+.. _CPLEX: https://www.ibm.com/jp-ja/products/ilog-cplex-optimization-studio
