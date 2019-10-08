@@ -1,20 +1,23 @@
-Python3
-############
+Python3 Installation
+####################
 
-
-Installation
-==================
 On a compatible system, open a terminal and run:
 
 .. code-block:: bash
 
   python3 -m pip install --user dqrobotics
+  
+Updates
+=======
 
 You can get updates with
 
 .. code-block:: bash
   
   python3 -m pip install --user dqrobotics --upgrade
+  
+Usage
+=====
 
 After installation, you can import and use the library in your code
 
