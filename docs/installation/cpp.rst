@@ -4,7 +4,7 @@ C++11 Installation
 Release PPA
 ==================
 
-The official support is for Ubuntu 16.04/18.04 LTS using our Stable PPA (https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
+The official support is for Ubuntu 16.04/18.04 LTS using our Stable-PPA_.
 
 .. code-block:: bash
   
@@ -24,7 +24,7 @@ Interfaces of DQ Robotics with other libraries are available as separate package
   sudo apt-get update
   apt-cache search libdqrobotics*
 
-For instance, the interface between DQ Robotics and [V-REP](http://www.coppeliarobotics.com/) can be downloaded with
+For instance, the interface between DQ Robotics and V-REP_ can be downloaded with
 
 .. code-block:: bash
   sudo apt-get install libdqrobotics-interface-vrep
@@ -47,7 +47,7 @@ After installing the library through the PPA, you will have access to the header
   #include <dqrobotics/robot_modeling/DQ_SerialManipulator.h>
   #include <dqrobotics/utils/DQ_Geometry.h>
   
-Linking can be done using -ldqrobotics. For example, using CMAKE, 
+The PPA installs the shared library at /usr/lib. For example, using CMAKE, 
 
 .. code-block:: cmake
 
@@ -60,8 +60,14 @@ Interface packages might also require linking. For instance, the V-REP interface
   target_link_libraries(my_binary dqrobotics dqrobotics-interface-vrep)
 
 Building from source in another OS
-==================
+==================================
 
-There is no official C++ support for other operating systems besides Ubuntu.
+.. warning::
+   There is no support for other operating systems besides Ubuntu LTS.
 
-However, you should be able to build from source as long as you have Eigen3 (http://eigen.tuxfamily.org/index.php?title=Main_Page), CMake (https://cmake.org/), and a C++11 compatible compiler. 
+However, you might be able to build from source as long as you have Eigen3_, CMake_, and a C++11 compatible compiler. 
+
+.. _Stable-PPA: https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release
+.. _V-REP: http://www.coppeliarobotics.com/
+.. _Eigen3: http://eigen.tuxfamily.org/index.php?title=Main_Page
+.. _CMake: https://cmake.org/
