@@ -12,6 +12,9 @@ It provides dual quaternion algebra and kinematic calculation algorithms in Pyth
 
 Support
 ==================
+.. warning::
+  Any requests regarding unsupported systems will most likely be ignored.
 
-1. MATLAB -> v>X
-2. Python3 & C++11 -> Ubuntu 16.04 and 18.04 LTS
+1. Python3 (Ubuntu 16.04 and 18.04 LTS)
+2. MATLAB (> 2016a)
+3. C++11 (Ubuntu 16.04 and 18.04 LTS)
