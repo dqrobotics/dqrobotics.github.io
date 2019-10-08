@@ -2,6 +2,9 @@ Python3 Installation
 ####################
 .. note::
   DQ Robotics Python3 is recommended for most users.
+
+.. note::
+  Had any issues? Report them at the Python-Issue-Tracker_.
   
 Installation
 ============
@@ -11,9 +14,6 @@ The DQ Robotics Python3 is delivered through PyPI_. On a Ubuntu 16.04/18.04 LTS 
 
   python3 -m pip install --user dqrobotics
   
-.. note::
-  Had any issues? Report them at the Python-Issue-Tracker_.
- 
 .. warning:: 
   The installation will fail for any unsupported system.
 
