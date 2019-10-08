@@ -2,15 +2,6 @@
 layout: default
 
 ---
-
-### …or clone the repos
-
-```bash
-git clone https://github.com/dqrobotics/matlab.git
-git clone https://github.com/dqrobotics/cpp.git
-git clone https://github.com/dqrobotics/python.git
-```
-
 <hr />
 
 # What is DQ Robotics?
@@ -19,6 +10,8 @@ DQ Robotics is a standalone open-source ([LGPLv3](https://www.gnu.org/licenses/l
 - Most users will benefit from using the [Python3](#ubuntu-python3--) version at first. It is easy and computationally efficient (C++ code runs under the hood for fast performance).
 - Use the [MATLAB](#matlab) version if you want to test your ideas fast while having convenient visualization tools, provided you have access to the [MathWorks software](https://www.mathworks.com/).
 - Use the [C++11 version](#ubuntu-c11-) for real-time high-performance applications and if you're not afraid of [pointers](https://en.wikipedia.org/wiki/Pointer_(computer_programming)).
+
+<hr />
 
 ## Installation
 
@@ -32,7 +25,7 @@ To use DQ Robotics Python 3, open a terminal and type
 python3 -m pip install --user dqrobotics
 ```
 
-More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/installation.html#python3).
+More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/installation/python.html#python3-installation).
 
 ### MATLAB
 
@@ -76,7 +69,7 @@ sudo apt-get install libdqrobotics
 
 All library updates will be delivered together with your regular Ubuntu updates.
 
-More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/installation.html#c-11).
+More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/installation/cpp.html#c-11-installation).
 
 # Remarks
 1. The DQ Robotics software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfrigement.
