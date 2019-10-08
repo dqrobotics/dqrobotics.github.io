@@ -35,7 +35,13 @@ All the code is under the :code:`dqrobotics` module.
   from dqrobotics import *
   a = DQ(1,2,3,4,5,6,7,8)
   print(a)
+  
+Using on the Robot Operating System (ROS)
+=========================================
+
+The _PyPI package installs for a given user and should be visible to any ROS_ code.
 
 .. _pybind11: https://github.com/pybind/pybind11
 .. _Python-Issue-Tracker: https://github.com/dqrobotics/python/issues
 .. _PyPI: https://pypi.org/
+.. _ROS: https://www.ros.org/
