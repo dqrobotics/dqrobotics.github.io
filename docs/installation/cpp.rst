@@ -14,6 +14,44 @@ The official support is for Ubuntu 16.04/18.04 LTS using our Stable-PPA_.
 
 All library updates will be delivered together with your regular Ubuntu updates.
 
+Including
+=========
+.. note::
+  After installation, the DQ Robotics headers can be included without any extra configuration.
+
+You can list up the installed headers with
+
+.. code-block:: bash
+
+  find /usr/include/dqrobotics
+  
+The headers can be added to your code in the following way
+
+.. code-block:: cpp
+
+  #include <dqrobotics/DQ.h>
+  #include <dqrobotics/robot_modeling/DQ_Kinematics.h>
+  #include <dqrobotics/robot_modeling/DQ_SerialManipulator.h>
+  #include <dqrobotics/utils/DQ_Geometry.h>
+  //Any other headers
+  
+Linking
+=======
+.. note::
+  After installation, the DQ Robotics shared objects can be linked without any extra configuration.
+
+For example, using CMAKE, 
+
+.. code-block:: cmake
+
+  target_link_libraries(my_binary dqrobotics)
+
+Interface packages might also require linking. For instance, the V-REP interface requires:
+
+.. code-block:: cmake
+
+  target_link_libraries(my_binary dqrobotics dqrobotics-interface-vrep)  
+  
 Interface packages
 ==================
 
@@ -35,29 +73,6 @@ and the interface between DQ Robotics and `CPLEX <https://www.ibm.com/jp-ja/prod
   sudo apt-get install libdqrobotics-interface-cplex
 
 Each package might require extra configuration and for that refer to their individual Github pages.
-
-Including and linking
-==================
-After installing the library through the PPA, you will have access to the headers:
-
-.. code-block:: cpp
-
-  #include <dqrobotics/DQ.h>
-  #include <dqrobotics/robot_modeling/DQ_Kinematics.h>
-  #include <dqrobotics/robot_modeling/DQ_SerialManipulator.h>
-  #include <dqrobotics/utils/DQ_Geometry.h>
-  
-The PPA installs the shared library at /usr/lib. For example, using CMAKE, 
-
-.. code-block:: cmake
-
-  target_link_libraries(my_binary dqrobotics)
-
-Interface packages might also require linking. For instance, the V-REP interface requires:
-
-.. code-block:: cmake
-
-  target_link_libraries(my_binary dqrobotics dqrobotics-interface-vrep)
 
 Building from source in another OS
 ==================================
