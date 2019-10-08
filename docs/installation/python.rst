@@ -1,16 +1,22 @@
 Python3 Installation
 ####################
 .. note::
-  Had any issues? Report them at the Python-Issue-Tracker_.
-.. note::
   DQ Robotics Python3 is recommended for most users.
   
-On a Ubuntu 16.04/18.04 LTS system, open a terminal and run:
+Installation
+============
+The DQ Robotics Python3 is delivered through PyPI_. On a Ubuntu 16.04/18.04 LTS system, open a terminal and run:
 
 .. code-block:: bash
 
   python3 -m pip install --user dqrobotics
   
+.. note::
+  Had any issues? Report them at the Python-Issue-Tracker_.
+ 
+.. warning:: 
+  The installation will fail for any unsupported system.
+
 Updates
 =======
 
@@ -20,10 +26,10 @@ You can get updates with
   
   python3 -m pip install --user dqrobotics --upgrade
   
-Usage
-=====
+Import
+======
 
-After installation, you can import and use the library in your code
+All the code is under the :code:`dqrobotics` module.
 
 .. code-block:: python
 
@@ -31,7 +37,6 @@ After installation, you can import and use the library in your code
   a = DQ(1,2,3,4,5,6,7,8)
   print(a)
 
-The DQ Robotics Python3 is made of Python bindings pybind11_ to the C++11 version of the library. It provides decent performance and facilitates the development-to-production cycle. 
-
 .. _pybind11: https://github.com/pybind/pybind11
 .. _Python-Issue-Tracker: https://github.com/dqrobotics/python/issues
+.. _PyPI: https://pypi.org/
