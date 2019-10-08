@@ -36,7 +36,7 @@ All the code is under the :code:`dqrobotics` module.
   a = DQ(1,2,3,4,5,6,7,8)
   print(a)
   
-Using on the Robot Operating System (ROS)
+Using on the Robot Operating System (ROS_)
 =========================================
 
 The PyPI_ package installs for a given user and should be visible to any ROS_ code.
