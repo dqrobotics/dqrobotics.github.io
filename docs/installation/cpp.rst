@@ -141,7 +141,7 @@ You might be able to build from source as long as you have Eigen3_, CMake_, and 
 .. _V-REP: http://www.coppeliarobotics.com/
 .. _Eigen3: http://eigen.tuxfamily.org/index.php?title=Main_Page
 .. _CMake: https://cmake.org/
-.. _CPLEX: https://www.ibm.com/jp-ja/products/ilog-cplex-optimization-studio
+.. _CPLEX: https://www.ibm.com/en-us/products/ilog-cplex-optimization-studio
 .. _CPP-Issue-Tracker: https://github.com/dqrobotics/cpp/issues
 .. _ROS: https://www.ros.org/
 .. _Json11: https://github.com/dropbox/json11
