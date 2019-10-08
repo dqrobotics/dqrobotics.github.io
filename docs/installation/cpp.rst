@@ -1,5 +1,7 @@
 C++11 Installation
 ##################
+.. warning::
+  The C++11 version uses, well, C++11. If terms such as C++11, CMAKE_, PPA, and linking are unfamiliar to you, perhaps using the Python3 or MATLAB version would be better.
 
 Release PPA
 ==================
@@ -13,9 +15,6 @@ The official support is for Ubuntu 16.04/18.04 LTS using our Stable-PPA_.
   sudo apt-get install libdqrobotics
 
 All library updates will be delivered together with your regular Ubuntu updates.
-
-.. warning::
-  The C++11 version uses, well, C++11. If terms such as C++11, CMAKE_, PPA, and linking are unfamiliar to you, perhaps using the Python3 or MATLAB version would be better.
 
 Including
 =========
@@ -49,7 +48,7 @@ The shared objects are installed at /usr/lib and will be found naturally by the 
 Interface packages
 ==================
 
-.. note:: 
+.. warning:: 
    We offer support (on a voluntary basis) for the interface packages but not for the third-party software we are interfacing with. For that, refer to their vendors.
 
 Interfaces of DQ Robotics with other libraries are available as separate packages in the PPA, and they can be listed with
