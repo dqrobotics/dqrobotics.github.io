@@ -1,4 +1,4 @@
-Welcome to dqrobotics's documentation!
+Contents
 ======================================
 
 .. toctree::
