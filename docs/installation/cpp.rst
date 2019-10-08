@@ -1,5 +1,7 @@
 C++11 Installation
 ##################
+.. note::
+  Had any issues? Report them at the CPP-Issue-Tracker_.
 .. warning::
   The C++11 version uses, well, C++11. If terms such as C++11, CMAKE_, PPA, and linking are unfamiliar to you, perhaps using the Python3 or MATLAB version would be better.
   
@@ -49,7 +51,7 @@ Interface packages
 ==================
 
 .. warning:: 
-   We offer support (on a voluntary basis) for the interface packages but not for the third-party software we are interfacing with. For that, refer to their vendors.
+   We offer support (on a voluntary basis) for the interface packages but no support whatsoever for the third-party software they interface with. For that, refer to their vendors.
 
 Interfaces of DQ Robotics with other libraries are available as separate packages in the PPA, and they can be listed with
 
@@ -110,3 +112,4 @@ You might be able to build from source as long as you have Eigen3_, CMake_, and 
 .. _Eigen3: http://eigen.tuxfamily.org/index.php?title=Main_Page
 .. _CMake: https://cmake.org/
 .. _CPLEX: https://www.ibm.com/jp-ja/products/ilog-cplex-optimization-studio
+.. _CPP-Issue-Tracker: https://github.com/dqrobotics/cpp/issues
