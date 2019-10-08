@@ -1,6 +1,8 @@
 Python3 Installation
 ####################
-
+.. note::
+  DQ Robotics Python3 is recommended for most users.
+  
 On a Ubuntu 16.04/18.04 LTS system, open a terminal and run:
 
 .. code-block:: bash
