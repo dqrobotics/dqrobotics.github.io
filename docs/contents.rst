@@ -5,4 +5,5 @@ Welcome to dqrobotics's documentation!
    :maxdepth: 2
 
    intro
-   installation
+   installation/python
+   installation/cpp
