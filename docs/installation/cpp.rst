@@ -37,21 +37,12 @@ The headers can be added to your code in the following way
   
 Linking
 =======
-.. note::
-  After installation, the DQ Robotics shared objects can be linked without any extra configuration.
-
-For example, using CMAKE, 
+The shared objects are installed at /usr/lib and will be found naturally by the linker. For example, using CMAKE, 
 
 .. code-block:: cmake
 
   target_link_libraries(my_binary dqrobotics)
 
-Interface packages might also require linking. For instance, the V-REP interface requires:
-
-.. code-block:: cmake
-
-  target_link_libraries(my_binary dqrobotics dqrobotics-interface-vrep)  
-  
 Interface packages
 ==================
 
@@ -72,7 +63,11 @@ and the interface between DQ Robotics and `CPLEX <https://www.ibm.com/jp-ja/prod
 .. code-block:: bash
   sudo apt-get install libdqrobotics-interface-cplex
 
-Each package might require extra configuration and for that refer to their individual Github pages.
+Interface packages might also require linking. For instance, the V-REP interface requires:
+
+.. code-block:: cmake
+
+  target_link_libraries(my_binary dqrobotics dqrobotics-interface-vrep)  
 
 Building from source in another OS
 ==================================
