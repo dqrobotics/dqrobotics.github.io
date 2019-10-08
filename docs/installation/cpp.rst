@@ -1,7 +1,7 @@
 C++11 Installation
 ##################
 .. warning::
-  The C++11 version uses, well, C++11. If terms such as C++11, CMAKE_, PPA, and linking are unfamiliar to you, perhaps using the Python3 or MATLAB version would be better.
+  If terms such as C++11, CMAKE_, PPA, and linking are unfamiliar to you, consider using the Python3 or MATLAB version of DQ Robotics instead.
 .. note::
   Had any issues? Report them at the CPP-Issue-Tracker_.
 
