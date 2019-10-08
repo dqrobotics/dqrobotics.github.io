@@ -103,6 +103,8 @@ If you are using CPLEX_, you have to install, configure, and link to it accordin
 
 Json11_ Interface Package
 -------------------------
+.. warning::
+  The Json11 interface package for now has limited functionality and can only import :code:`DQ_SerialManipulator` instances.
 
 The interface between DQ Robotics and Json11_ can be downloaded with
 
