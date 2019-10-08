@@ -1,7 +1,7 @@
 Python3 Installation
 ####################
 
-On a compatible system, open a terminal and run:
+On a Ubuntu 16.04/18.04 LTS system, open a terminal and run:
 
 .. code-block:: bash
 
