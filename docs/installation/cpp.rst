@@ -101,6 +101,27 @@ The following header will be installed in your system
 
 If you are using CPLEX_, you have to install, configure, and link to it according to its documentation. 
 
+Json11_ Interface Package
+-------------------------
+
+The interface between DQ Robotics and Json11_ can be downloaded with
+
+.. code-block:: bash
+
+  sudo apt-get install libdqrobotics-interface-json11
+
+The following header will be installed in your system:
+
+.. code-block:: cpp
+
+  #include<dqrobotics/interfaces/json11/DQ_JsonReader.h>
+
+This interface package also requires linking. Using CMAKE_, for example:
+
+.. code-block:: cmake
+
+  target_link_libraries(my_binary dqrobotics dqrobotics-interface-json11)  
+
 Using on the Robot Operating System (ROS_)
 =========================================
 
@@ -121,3 +142,4 @@ You might be able to build from source as long as you have Eigen3_, CMake_, and 
 .. _CPLEX: https://www.ibm.com/jp-ja/products/ilog-cplex-optimization-studio
 .. _CPP-Issue-Tracker: https://github.com/dqrobotics/cpp/issues
 .. _ROS: https://www.ros.org/
+.. _Json11: https://github.com/dropbox/json11
