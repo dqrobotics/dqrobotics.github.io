@@ -101,6 +101,11 @@ The following header will be installed in your system
 
 If you are using CPLEX_, you have to install, configure, and link to it according to its documentation. 
 
+Using on the Robot Operating System (ROS_)
+=========================================
+
+DQ Robotics C++11 and all interface packages install as system-wide packages, so they can be added to your ROS_ code using the CMAKE_ directives shown above.
+
 Building from source in another OS
 ==================================
 
@@ -115,3 +120,4 @@ You might be able to build from source as long as you have Eigen3_, CMake_, and 
 .. _CMake: https://cmake.org/
 .. _CPLEX: https://www.ibm.com/jp-ja/products/ilog-cplex-optimization-studio
 .. _CPP-Issue-Tracker: https://github.com/dqrobotics/cpp/issues
+.. _ROS: https://www.ros.org/
