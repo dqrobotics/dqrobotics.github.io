@@ -89,6 +89,7 @@ CPLEX_ Interface Package
 The interface between DQ Robotics and CPLEX_ is header-only and can be installed as follows:
 
 .. code-block:: bash
+
   sudo apt-get install libdqrobotics-interface-cplex
 
 The following header will be installed in your system
