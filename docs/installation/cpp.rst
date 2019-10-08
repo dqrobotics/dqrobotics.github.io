@@ -124,7 +124,7 @@ This interface package also requires linking. Using CMAKE_, for example:
 
   target_link_libraries(my_binary dqrobotics dqrobotics-interface-json11)  
 
-Using on the Robot Operating System (ROS_)
+Using with the Robot Operating System (ROS_)
 =========================================
 
 DQ Robotics C++11 and all interface packages install as system-wide packages, so they can be added to your ROS_ code using the CMAKE_ directives shown above.
