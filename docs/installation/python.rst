@@ -14,7 +14,7 @@ The DQ Robotics Python3 is delivered through PyPI_. On a Ubuntu 16.04/18.04 LTS 
   python3 -m pip install --user dqrobotics
   
 .. warning:: 
-  The installation will fail for any unsupported system.
+  The installation will fail for any unsupported system, even if that system has pip.
 
 Updates
 =======
