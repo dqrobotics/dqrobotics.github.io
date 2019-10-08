@@ -2,7 +2,6 @@ Python3 Installation
 ####################
 .. note::
   DQ Robotics Python3 is recommended for most users.
-
 .. note::
   Had any issues? Report them at the Python-Issue-Tracker_.
   
