@@ -63,7 +63,7 @@ Interfaces of DQ Robotics with other libraries are available as separate package
 V-REP_ Interface Package
 ------------------------
 
-The interface between DQ Robotics and V-REP_ can be downloaded with
+The interface between DQ Robotics and V-REP_ can be installed with
 
 .. code-block:: bash
 
@@ -106,7 +106,7 @@ Json11_ Interface Package
 .. warning::
   The Json11 interface package for now has limited functionality and can only import :code:`DQ_SerialManipulator` instances.
 
-The interface between DQ Robotics and Json11_ can be downloaded with
+The interface between DQ Robotics and Json11_ can be installed with
 
 .. code-block:: bash
 
