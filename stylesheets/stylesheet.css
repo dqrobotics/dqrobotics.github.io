@@ -153,7 +153,7 @@ a.button span {
 }
 
 #read-the-docs span {
-  background: transparent url(../images/logo-dark.png) 12px 50% no-repeat;
+  background: transparent url(../images/logo-dark.png) 12px 12px no-repeat;
 }
 
 #download-zip span {
