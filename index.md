@@ -13,7 +13,7 @@ DQ Robotics is a standalone open-source ([LGPLv3](https://www.gnu.org/licenses/l
 
 <hr />
 
-## Installation
+## Installation [![Documentation Status](https://readthedocs.org/projects/dqroboticsgithubio/badge/?version=latest)](https://dqroboticsgithubio.readthedocs.io/en/latest/?badge=latest)
 
 ### Ubuntu-Python3 [![Build Status](https://travis-ci.com/dqrobotics/python.svg?branch=master)](https://travis-ci.com/dqrobotics/python) [![PyPI version](https://badge.fury.io/py/dqrobotics.svg)](https://badge.fury.io/py/dqrobotics)
 
