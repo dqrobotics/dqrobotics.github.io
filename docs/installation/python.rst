@@ -47,3 +47,4 @@ The recommended :code:`pip` installation installs the library for a given user a
 .. _Python-Issue-Tracker: https://github.com/dqrobotics/python/issues
 .. _PyPI: https://pypi.org/
 .. _ROS: https://www.ros.org/
+.. _LGPLV3: https://choosealicense.com/licenses/lgpl-3.0/
