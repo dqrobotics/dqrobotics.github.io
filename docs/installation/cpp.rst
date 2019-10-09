@@ -62,6 +62,8 @@ Interfaces of DQ Robotics with other libraries are available as separate package
   
 V-REP_ Interface Package
 ------------------------
+.. note:: 
+  The V-REP interface package uses BSD-licensed code distributed by CoppeliaRobotics_. Refer to their license for details.
 
 The interface between DQ Robotics and V-REP_ can be installed with
 
@@ -103,6 +105,9 @@ If you are using CPLEX_, you have to install, configure, and link to it accordin
 
 Json11_ Interface Package
 -------------------------
+.. note::
+  The Json11 interface package uses MIT-licensed code by Dropbox_. Refer to their license for details.
+  
 .. warning::
   The Json11 interface package for now has limited functionality and can only import :code:`DQ_SerialManipulator` instances.
 
@@ -145,3 +150,4 @@ You might be able to build from source as long as you have Eigen3_, CMake_, and 
 .. _CPP-Issue-Tracker: https://github.com/dqrobotics/cpp/issues
 .. _ROS: https://www.ros.org/
 .. _Json11: https://github.com/dropbox/json11
+.. _CoppeliaRobotics: https://github.com/CoppeliaRobotics
