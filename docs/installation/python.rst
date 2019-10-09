@@ -3,6 +3,8 @@ Python3 Installation
 .. note::
   DQ Robotics Python3 is recommended for most users.
 .. note::
+  DQ Robotics Python3 is distributed as a LGPLV3_ licensed package. Interface submodules might have additional licenses.
+.. note::
   Had any issues? Report them at the Python-Issue-Tracker_.
   
 Installation
