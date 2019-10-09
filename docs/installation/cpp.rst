@@ -3,7 +3,7 @@ C++11 Installation
 .. warning::
   If terms such as C++11, CMAKE_, PPA, and linking are unfamiliar to you, consider using the Python3 or MATLAB version of DQ Robotics instead.
 .. note:: 
-  DQ Robotics is a LGPLV3_ licensed package. Interface packages might have additional licenses.
+  DQ Robotics C++11 is distributed as a LGPLV3_ licensed package. Interface packages might have additional licenses.
 .. note::
   Had any issues? Report them at the CPP-Issue-Tracker_.
 
