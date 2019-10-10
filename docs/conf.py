@@ -32,7 +32,7 @@ release = '19.10.0'
 # ones.
 extensions = [
 	"sphinx_rtd_theme",
-	"sphinx.ext.pngmath"
+	"sphinx_pngmath"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
