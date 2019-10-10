@@ -45,7 +45,7 @@ Operations
 
   h3 = h1-h2
   
-3. Multiplication :math:`\dq{h_3} = \dq{h_1} * \dq{h_2}`
+3. Multiplication :math:`\dq{h_3} = \dq{h_1}\dq{h_2}`
 
 .. code-block:: python
 
