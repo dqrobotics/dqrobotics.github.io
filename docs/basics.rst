@@ -15,4 +15,5 @@ in which the imaginary units :math:`\imi`, :math:`\imj`, and :math:`\imk` have t
    :maxdepth: 2
 
    basics/python
+   basics/cpp
    
