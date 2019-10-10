@@ -13,7 +13,6 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-needs_sphinx = '1.4.3'
 
 # -- Project information -----------------------------------------------------
 
@@ -31,8 +30,7 @@ release = '19.10.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-	"sphinx_rtd_theme",
-	"sphinx.ext.imgmath"
+	"sphinx_rtd_theme"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -57,9 +55,13 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 # -- Custom
-f = open('macros.tex','r')
-
-latex_elements['preamble'] = f.read()
-pngmath_latex_preamble = f.read()
-	
-f.close()
+mathjax_config = {                  
+    "TeX": {                        
+        "Macros": {                 
+            "imi": '{\hat{\imath}}',
+	    "imj": '{\hat{\jmath}}',
+	    "imk": '{\hat{k}}',
+            "dq": ['{\underline{\boldsymbol{#1}}',1] 
+            }                       
+        }                           
+    }       
