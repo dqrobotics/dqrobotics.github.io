@@ -13,7 +13,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-
+needs_sphinx = '1.4.3'
 
 # -- Project information -----------------------------------------------------
 
@@ -32,6 +32,7 @@ release = '19.10.0'
 # ones.
 extensions = [
 	"sphinx_rtd_theme",
+	"sphinx.ext.imgmath"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
