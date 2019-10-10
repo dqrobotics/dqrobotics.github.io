@@ -58,11 +58,11 @@ html_static_path = ['_static']
 mathjax_config = {                  
     "TeX": {                        
         "Macros": {                 
-            "imi": '{\hat{\imath}}',
-	    "imj": '{\hat{\jmath}}',
-	    "imk": '{\hat{k}}',
+            "imi": '{\\hat{\\imath}}',
+	    "imj": '{\\hat{\\jmath}}',
+	    "imk": '{\\hat{k}}',
             "dual": '{\\varepsilon}',
-            "dq": ['{\underline{\b{#1}}}',1] 
+            "dq": ['{\\underline{\\bm{#1}}}',1] 
             }                       
         }                           
     }    
