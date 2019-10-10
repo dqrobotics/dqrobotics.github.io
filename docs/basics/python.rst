@@ -17,7 +17,7 @@ Preliminaries
 
 Suppose you have the dual quaternions
 
-:math:`h_1=1+i+j+k+\epsilon(1 + i + j + k)` 
+:math:`\dq{h_1}=1+\imi+\imj+\imk+\dual(1 + \imi + \imj + \imk)` 
 
 and 
 
