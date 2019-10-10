@@ -29,8 +29,8 @@ They can be declared in DQ Robotics as
 
 .. code-block:: cpp
 
-  DQ h1(1,1,1,1,1,1,1,1)
-  DQ h2(2,2,2,2,2,2,2,2)
+  DQ h1(1,1,1,1,1,1,1,1);
+  DQ h2(2,2,2,2,2,2,2,2);
 
 Operations
 -------------
@@ -39,18 +39,18 @@ Operations
 
 .. code-block:: cpp
 
-  DQ h3 = h1+h2
+  DQ h3 = h1+h2;
   
 2. Subtraction :math:`\dq{h_3} = \dq{h_1} - \dq{h_2}`
 
 .. code-block:: cpp
 
-  DQ h3 = h1-h2
+  DQ h3 = h1-h2;
   
 3. Multiplication :math:`\dq{h_3} = \dq{h_1}\dq{h_2}`
 
 .. code-block:: cpp
 
-  DQ h3 = h1*h2
+  DQ h3 = h1*h2;
 
 .. _LGPLV3: https://choosealicense.com/licenses/lgpl-3.0/
