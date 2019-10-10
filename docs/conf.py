@@ -59,7 +59,7 @@ html_static_path = ['_static']
 # -- Custom
 f = open('macros.tex','r')
 
+latex_elements['preamble'] = f.read()
 pngmath_latex_preamble = f.read()
-print(pngmath_latex_preamble)
 	
 f.close()
