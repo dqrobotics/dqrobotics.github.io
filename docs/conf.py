@@ -65,6 +65,6 @@ except NameError:
 	pngmath_latex_preamble = ""
 	
 for macro in f.readlines():
-	pngmath_lates_preamble += macro + '\n'
+	pngmath_latex_preamble += macro + '\n'
 	
 close(f)
