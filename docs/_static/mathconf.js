@@ -4,7 +4,7 @@ MathJax.Hub.Config({
         imi: '{\hat{\imath}}',
         imj: '{\hat{\jmath}}',
         imk: '{\hat{k}}',
-        dq: ['{\underline{\boldsymbol{#1}}',1] 
+        dq: ['{\underline{\boldsymbol{#1}}}',1] 
               }                       
         }        
 });
