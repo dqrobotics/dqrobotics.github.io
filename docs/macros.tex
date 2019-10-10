@@ -1,44 +1,44 @@
-\global\long\def\quat#1{\boldsymbol{#1}}%
-\global\long\def\dq#1{\underline{\boldsymbol{#1}}}%
-\global\long\def\hp{\mathbb{H}_{p}}%
-\global\long\def\dotmul#1#2{\langle#1,#2\rangle}%
-\global\long\def\partialfrac#1#2{\frac{\partial\left(#1\right)}{\partial#2}}%
-\global\long\def\totalderivative#1#2{\frac{d}{d#2}\left(#1\right)}%
-\global\long\def\mymatrix#1{\boldsymbol{#1}}%
-\global\long\def\vecthree#1{\operatorname{vec}_{3}#1}%
-\global\long\def\vecfour#1{\operatorname{vec}_{4}#1}%
-\global\long\def\haminuseight#1{\overset{-}{\mymatrix H}_{8}\left(#1\right)}%
-\global\long\def\hapluseight#1{\overset{+}{\mymatrix H}_{8}\left(#1\right)}%
-\global\long\def\haminus#1{\overset{-}{\mymatrix H}_{4}\left(#1\right)}%
-\global\long\def\haplus#1{\overset{+}{\mymatrix H}_{4}\left(#1\right)}%
-\global\long\def\norm#1{\left\Vert #1\right\Vert }%
-\global\long\def\abs#1{\left|#1\right|}%
-\global\long\def\conj#1{#1^{*}}%
-\global\long\def\veceight#1{\operatorname{vec}_{8}#1}%
-\global\long\def\myvec#1{\boldsymbol{#1}}%
-\global\long\def\imi{\hat{\imath}}%
-\global\long\def\imj{\hat{\jmath}}%
-\global\long\def\imk{\hat{k}}%
-\global\long\def\dual{\varepsilon}%
-\global\long\def\getp#1{\operatorname{\mathcal{P}}\left(#1\right)}%
-\global\long\def\getpdot#1{\operatorname{\dot{\mathcal{P}}}\left(#1\right)}%
-\global\long\def\getd#1{\operatorname{\mathcal{D}}\left(#1\right)}%
-\global\long\def\getddot#1{\operatorname{\dot{\mathcal{D}}}\left(#1\right)}%
-\global\long\def\real#1{\operatorname{\mathrm{Re}}\left(#1\right)}%
-\global\long\def\imag#1{\operatorname{\mathrm{Im}}\left(#1\right)}%
-\global\long\def\spin{\text{Spin}(3)}%
-\global\long\def\spinr{\text{Spin}(3){\ltimes}\mathbb{R}^{3}}%
-\global\long\def\distance#1#2#3{d_{#1,\mathrm{#2}}^{#3}}%
-\global\long\def\distancejacobian#1#2#3{\boldsymbol{J}_{#1,#2}^{#3}}%
-\global\long\def\distancegain#1#2#3{\eta_{#1,#2}^{#3}}%
-\global\long\def\distanceerror#1#2#3{\tilde{d}_{#1,#2}^{#3}}%
-\global\long\def\dotdistance#1#2#3{\dot{d}_{#1,#2}^{#3}}%
-\global\long\def\distanceorigin#1{d_{#1}}%
-\global\long\def\dotdistanceorigin#1{\dot{d}_{#1}}%
-\global\long\def\squaredistance#1#2#3{D_{#1,#2}^{#3}}%
-\global\long\def\dotsquaredistance#1#2#3{\dot{D}_{#1,#2}^{#3}}%
-\global\long\def\squaredistanceerror#1#2#3{\tilde{D}_{#1,#2}^{#3}}%
-\global\long\def\squaredistanceorigin#1{D_{#1}}%
-\global\long\def\dotsquaredistanceorigin#1{\dot{D}_{#1}}%
-\global\long\def\crossmatrix#1{\overline{\mymatrix S}\left(#1\right)}%
-\global\long\def\constraint#1#2#3{\mathcal{C}_{\mathrm{#1},\mathrm{#2}}^{\mathrm{#3}}}%
+\def\quat#1{\boldsymbol{#1}}
+\def\dq#1{\underline{\boldsymbol{#1}}}
+\def\hp{\mathbb{H}_{p}}
+\def\dotmul#1#2{\langle#1,#2\rangle}
+\def\partialfrac#1#2{\frac{\partial\left(#1\right)}{\partial#2}}
+\def\totalderivative#1#2{\frac{d}{d#2}\left(#1\right)}
+\def\mymatrix#1{\boldsymbol{#1}}
+\def\vecthree#1{\operatorname{vec}_{3}#1}
+\def\vecfour#1{\operatorname{vec}_{4}#1}
+\def\haminuseight#1{\overset{-}{\mymatrix H}_{8}\left(#1\right)}
+\def\hapluseight#1{\overset{+}{\mymatrix H}_{8}\left(#1\right)}
+\def\haminus#1{\overset{-}{\mymatrix H}_{4}\left(#1\right)}
+\def\haplus#1{\overset{+}{\mymatrix H}_{4}\left(#1\right)}
+\def\norm#1{\left\Vert #1\right\Vert }
+\def\abs#1{\left|#1\right|}
+\def\conj#1{#1^{*}}
+\def\veceight#1{\operatorname{vec}_{8}#1}
+\def\myvec#1{\boldsymbol{#1}}
+\def\imi{\hat{\imath}}
+\def\imj{\hat{\jmath}}
+\def\imk{\hat{k}}
+\def\dual{\varepsilon}
+\def\getp#1{\operatorname{\mathcal{P}}\left(#1\right)}
+\def\getpdot#1{\operatorname{\dot{\mathcal{P}}}\left(#1\right)}
+\def\getd#1{\operatorname{\mathcal{D}}\left(#1\right)}
+\def\getddot#1{\operatorname{\dot{\mathcal{D}}}\left(#1\right)}
+\def\real#1{\operatorname{\mathrm{Re}}\left(#1\right)}
+\def\imag#1{\operatorname{\mathrm{Im}}\left(#1\right)}
+\def\spin{\text{Spin}(3)}
+\def\spinr{\text{Spin}(3){\ltimes}\mathbb{R}^{3}}
+\def\distance#1#2#3{d_{#1,\mathrm{#2}}^{#3}}
+\def\distancejacobian#1#2#3{\boldsymbol{J}_{#1,#2}^{#3}}
+\def\distancegain#1#2#3{\eta_{#1,#2}^{#3}}
+\def\distanceerror#1#2#3{\tilde{d}_{#1,#2}^{#3}}
+\def\dotdistance#1#2#3{\dot{d}_{#1,#2}^{#3}}
+\def\distanceorigin#1{d_{#1}}
+\def\dotdistanceorigin#1{\dot{d}_{#1}}
+\def\squaredistance#1#2#3{D_{#1,#2}^{#3}}
+\def\dotsquaredistance#1#2#3{\dot{D}_{#1,#2}^{#3}}
+\def\squaredistanceerror#1#2#3{\tilde{D}_{#1,#2}^{#3}}
+\def\squaredistanceorigin#1{D_{#1}}
+\def\dotsquaredistanceorigin#1{\dot{D}_{#1}}
+\def\crossmatrix#1{\overline{\mymatrix S}\left(#1\right)}
+\def\constraint#1#2#3{\mathcal{C}_{\mathrm{#1},\mathrm{#2}}^{\mathrm{#3}}}
