@@ -13,6 +13,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+needs_sphinx = '2.2.0'
 
 # -- Project information -----------------------------------------------------
 
