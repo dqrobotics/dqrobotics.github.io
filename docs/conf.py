@@ -61,8 +61,8 @@ mathjax_config = {
             "imi": '{\hat{\imath}}',
 	    "imj": '{\hat{\jmath}}',
 	    "imk": '{\hat{k}}',
-            "dual": '{\varepsilon}',
-            "dq": ['{\underline{\bm{#1}}}',1] 
+            "dual": '{\epsilon}',
+            "dq": ['{\underline{\b{#1}}}',1] 
             }                       
         }                           
     }    
