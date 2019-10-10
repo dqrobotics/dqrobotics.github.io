@@ -6,3 +6,4 @@ Contents
 
    intro
    installation
+   basics
