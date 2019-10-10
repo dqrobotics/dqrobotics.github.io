@@ -60,5 +60,6 @@ html_static_path = ['_static']
 f = open('macros.tex','r')
 
 pngmath_latex_preamble = f.read()
+print(pngmath_latex_preamble)
 	
 f.close()
