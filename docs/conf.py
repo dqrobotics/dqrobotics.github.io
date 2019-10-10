@@ -55,14 +55,3 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-# -- Custom
-mathjax_config = {                  
-"TeX": {                        
-    "Macros": {                 
-        "imi": '{\hat{\imath}}',
-        "imj": '{\hat{\jmath}}',
-        "imk": '{\hat{k}}',
-        "dq": ['{\underline{\boldsymbol{#1}}',1] 
-              }                       
-        }                           
-}       
