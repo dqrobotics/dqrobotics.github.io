@@ -1,8 +1,10 @@
 MathJax.Hub.Config({
-  TeX: {
-    Macros: {
-      RR: '{\\bf R}',
-      bold: ['{\\bf #1}', 1]
-    }
-  }
+  TeX: {                        
+    Macros: {                 
+        imi: '{\hat{\imath}}',
+        imj: '{\hat{\jmath}}',
+        imk: '{\hat{k}}',
+        dq: ['{\underline{\boldsymbol{#1}}',1] 
+              }                       
+        }        
 });
