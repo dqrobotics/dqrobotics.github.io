@@ -4,6 +4,7 @@ Python3 Basics
 Preliminaries
 ============
 All code in this section expects you to have the followoing import in the beginning of your file
+
 .. code-block:: python
 
   from dqrobotics import *
@@ -32,10 +33,22 @@ They can be declared in DQ Robotics as
 Operations
 -------------
 
-:math:`h_3 = h_1 + h_2`
+1. Sum :math:`h_3 = h_1 + h_2`
 
 .. code-block:: python
 
   h3 = h1+h2
+  
+2. Subtraction :math:`h_3 = h_1 - h_2`
+
+.. code-block:: python
+
+  h3 = h1-h2
+  
+3. Multiplication :math:`h_3 = h_1 * h_2`
+
+.. code-block:: python
+
+  h3 = h1*h2
 
 .. _LGPLV3: https://choosealicense.com/licenses/lgpl-3.0/
