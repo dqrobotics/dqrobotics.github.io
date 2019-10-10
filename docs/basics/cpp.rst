@@ -3,7 +3,7 @@ C++11 Basics
   
 Preliminaries
 ============
-All code in this section expects you to have the followoing import in the beginning of your file
+All code in this section expects you to have the :code:`include` and :code:`using` in the beginning of your file
 
 .. code-block:: cpp
 
