@@ -21,7 +21,7 @@ Suppose you have the dual quaternions
 
 and 
 
-:math:`h_2=2+2i+2j+2k+\epsilon(2 + 2i + 2j + 2k)`.
+:math:`\dq{h_2}=2+2\imi+2\imj+2\imk+\dual(2 + 2\imi + 2\imj + 2\imk)`.
 
 They can be declared in DQ Robotics as
 
@@ -33,19 +33,19 @@ They can be declared in DQ Robotics as
 Operations
 -------------
 
-1. Sum :math:`h_3 = h_1 + h_2`
+1. Sum :math:`\dq{h_3} = \dq{h_1} + \dq{h_2}`
 
 .. code-block:: python
 
   h3 = h1+h2
   
-2. Subtraction :math:`h_3 = h_1 - h_2`
+2. Subtraction :math:`\dq{h_3} = \dq{h_1} - \dq{h_2}`
 
 .. code-block:: python
 
   h3 = h1-h2
   
-3. Multiplication :math:`h_3 = h_1 * h_2`
+3. Multiplication :math:`\dq{h_3} = \dq{h_1} * \dq{h_2}`
 
 .. code-block:: python
 
