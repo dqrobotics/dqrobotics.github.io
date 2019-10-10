@@ -59,12 +59,6 @@ html_static_path = ['_static']
 # -- Custom
 f = open('macros.tex','r')
 
-try:
-	pngmath_latex_preamble
-except NameError:
-	pngmath_latex_preamble = ""
-	
-for macro in f.readlines():
-	pngmath_latex_preamble += macro + '\n'
+pngmath_latex_preamble = f.read()
 	
 f.close()
