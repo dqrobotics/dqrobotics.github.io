@@ -64,7 +64,7 @@ mathjax_config = {
 	    "imk": '{\\hat{k}}',
             "dual": '{\\varepsilon}',
             "dq": ['{\\underline{\b{#1}}}',1],
-            "quat": ['\\b{#1}',1] 
+            "quat": ['\b{#1}',1] 
             }                       
         }                           
     }    
