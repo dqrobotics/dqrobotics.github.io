@@ -1,6 +1,9 @@
 Basics
 ======================================
 
+.. note::
+   Throughout the documention we use the notation of :cite:`Marinho2018` that are adapted from :cite:`adorno2011`.
+
 Preliminaries
 -------------
 
@@ -19,6 +22,8 @@ The dual quaternion set is given by
 :math:`\mathcal{H}\triangleq\left\{ \quat h+\dual\quat h'\,:\,\quat h,\quat h'\in\mathbb{H},\,\dual^{2}=0,\,\dual\neq0\right\}`
 
 where :math:`\dual^2=0` but :math:`\dual\neq0`.
+
+.. bibliography:: references.bib
 
 Programing
 ----------
