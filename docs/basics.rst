@@ -2,7 +2,7 @@ Basics
 ======================================
 
 .. note::
-   TWe use the mathematical notation of :cite:`adorno2017` unless otherwise stated.
+   We use the mathematical notation of :cite:`adorno2017` unless otherwise stated.
 
 Preliminaries
 -------------
