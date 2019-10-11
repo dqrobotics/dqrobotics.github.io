@@ -123,4 +123,4 @@ The Jacobian relating the joint velocities with the derivative of the distance b
 
 .. code:: python
 
-   result = DQ_Kinematics.point_to_plane_distance_jacobian(translation_jacobian, workspace_plane)
+   result = DQ_Kinematics.point_to_plane_distance_jacobian(translation_jacobian, robot_point, workspace_plane)
