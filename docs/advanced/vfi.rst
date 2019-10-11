@@ -12,25 +12,33 @@ Distance Jacobians
 
 To have access to these methods, use
 
-.. code:: cpp
-
-   #include<dqrobotics/robot_modeling/DQ_Kinematics>
-
 .. code:: python
 
+   # Python
    from dqrobotics.robot_modeling import DQ_Kinematics
 
-:math:`\mymatrix J_{\quat t,\quat p}`
+.. code:: cpp
+
+   //C++
+   #include<dqrobotics/robot_modeling/DQ_Kinematics>
+
+
+Robot-point to point distance Jacobian, :math:`\mymatrix J_{\quat t,\quat p}`
 ------------------------------------
-Squared-distance between a point in the manipulator and a point in the workspace.
+.. note:: 
+   Define in Eq. (22) of :cite:`Marinho2019`.
+
+The Jacobian relating the joint velocities with the derivative of the squared-distance between a point in the manipulator and a point in the workspace.
+
+.. code:: python
+
+   # Python
+   result = DQ_Kinematics.point_to_point_distance_jacobian(translation_jacobian, robot_point, workspace_point)
 
 .. code:: cpp
 
+   //C++
    MatrixXd result = DQ_Kinematics::point_to_point_distance_jacobian(translation_jacobian, robot_point, workspace_point);
-   
-.. code:: python
-
-   result = DQ_Kinematics.point_to_point_distance_jacobian(translation_jacobian, robot_point, workspace_point)
    
    
 References
