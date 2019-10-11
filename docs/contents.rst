@@ -7,3 +7,4 @@ Contents
    intro
    installation
    basics
+   advanced
