@@ -23,8 +23,6 @@ The dual quaternion set is given by
 
 where :math:`\dual^2=0` but :math:`\dual\neq0`.
 
-.. bibliography:: references.bib
-
 Programing
 ----------
 
@@ -33,4 +31,9 @@ Programing
 
    basics/python
    basics/cpp
+   
+References
+----------
+
+.. bibliography:: references.bib
    
