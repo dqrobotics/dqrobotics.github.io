@@ -32,8 +32,4 @@ Programing
    basics/python
    basics/cpp
    
-References
-----------
-
-.. bibliography:: references.bib
-   
+ 
