@@ -8,3 +8,4 @@ Contents
    installation
    basics
    advanced
+   references
