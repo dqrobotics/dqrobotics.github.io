@@ -1,2 +1,3 @@
 breathe == 4.5.0
 Sphinx >= 2.2.0
+sphinxcontrib-bibtex == 1.0.0
