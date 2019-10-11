@@ -57,8 +57,4 @@ The Jacobian relating the joint velocities with the derivative of the squared-di
 
    result = DQ_Kinematics.point_to_point_distance_jacobian(translation_jacobian, robot_point, workspace_point)
 
-   
-References
-==========
 
-.. bibliography:: references.bib
