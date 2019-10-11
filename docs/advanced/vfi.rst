@@ -26,7 +26,7 @@ To have access to these methods, use
 Robot-point to point distance Jacobian, :math:`\mymatrix J_{\quat t,\quat p}`
 ------------------------------------
 .. note:: 
-   Define in Eq. (22) of :cite:`Marinho2019`.
+   Mathematically defined in Eq. (22) of :cite:`Marinho2019`.
 
 The Jacobian relating the joint velocities with the derivative of the squared-distance between a point in the manipulator and a point in the workspace.
 
