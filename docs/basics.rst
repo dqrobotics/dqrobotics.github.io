@@ -2,7 +2,7 @@ Basics
 ======================================
 
 .. note::
-   Throughout the documention we use the notation of :cite:`Marinho2018` that are adapted from :cite:`adorno2011`.
+   Throughout the documention we use the notation of :cite:`Marinho2019` that are adapted from :cite:`adorno`.
 
 Preliminaries
 -------------
