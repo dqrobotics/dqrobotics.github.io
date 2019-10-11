@@ -1,8 +1,10 @@
 Vector-field inequalities
 ########################
+.. note:: 
+  For brevity, the code is shown using Python3. The other versions of the library also have the same methods.
 
 .. note::
-   This section is based on the results presented in :cite:`Marinho2019` and uses its notation.
+  This section is based on the results presented in :cite:`Marinho2019`.
    
 Distance Jacobians
 ==================
@@ -14,13 +16,34 @@ To have access to these methods, use
 
 .. code:: python
 
-   # Python
    from dqrobotics.robot_modeling import DQ_Kinematics
 
-.. code:: cpp
+As an usage example, suppose that we are using the :code:`KukaYoubot` robot
 
-   //C++
-   #include<dqrobotics/robot_modeling/DQ_Kinematics>
+.. code:: python
+
+   import numpy as np
+   from math import pi
+   from dqrobotics import *
+   from dqrobotics.robot_modeling import DQ_Kinematics
+   from dqrobotics.robots import KukaYoubotRobot
+
+   # Get robot kinematics
+   robot = KukaYoubotRobot.kinematics()
+   
+   # Define an arbirary posture
+   q = np.array([0, 0, 0, 0, pi/2.0, pi/2.0, 0, 0]) # Arbitrary value
+   
+   # The pose of the robot can be used to retrieve robot primitives
+   pose = robot.fkm(q)
+   robot_point = translation(pose)
+   
+   # These Jacobians are used to calculate the distance Jacobians
+   pose_jacobian = robot.pose_jacobian(q)
+   translation_jacobian = DQ_Kinematics.translation_jacobian(pose_jacobian, pose)  
+   
+   # Workspace primitives are calculated with dual-quaternion algebra
+   workspace_point = 0.5*i_ + 0.2*j_
 
 
 Robot-point to point distance Jacobian, :math:`\mymatrix J_{\quat t,\quat p}`
@@ -32,14 +55,8 @@ The Jacobian relating the joint velocities with the derivative of the squared-di
 
 .. code:: python
 
-   # Python
    result = DQ_Kinematics.point_to_point_distance_jacobian(translation_jacobian, robot_point, workspace_point)
 
-.. code:: cpp
-
-   //C++
-   MatrixXd result = DQ_Kinematics::point_to_point_distance_jacobian(translation_jacobian, robot_point, workspace_point);
-   
    
 References
 ==========
