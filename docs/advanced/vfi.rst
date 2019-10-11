@@ -1,11 +1,11 @@
 Vector-field inequalities
 ########################
-.. note:: 
-  For brevity, the code is shown using Python3. The other versions of the library also have the same methods.
-
 .. note::
   This section is based on the results presented in :cite:`Marinho2019`.
-   
+
+.. warning:: 
+  For brevity, the code is shown using Python3. The other versions of the library also have the same methods.
+
 Distance Jacobians
 ==================
 
@@ -117,7 +117,7 @@ The Jacobian relating the joint velocities with the derivative of the distance b
 Robot-point to plane distance Jacobian, :math:`\mymatrix J_{\quat p,\quat \pi}`
 ------------------------------------
 .. note:: 
-   This method provides an implementation of Eq. (59) of :cite:`Marinho2019`.
+   Mathematically defined in Eq. (59) of :cite:`Marinho2019`.
 
 The Jacobian relating the joint velocities with the derivative of the distance between a point in the manipulator and a plane in the workspace.
 
