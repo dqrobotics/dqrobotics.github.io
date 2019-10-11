@@ -1,6 +1,9 @@
 Basics
 ======================================
 
+Preliminaries
+-------------
+
 Consider these important definitions that apply to all following explanations.
 
 The quaternion set is given by
@@ -16,6 +19,9 @@ The dual quaternion set is given by
 :math:`\mathcal{H}\triangleq\left\{ \quat h+\dual\quat h'\,:\,\quat h,\quat h'\in\mathbb{H},\,\dual^{2}=0,\,\dual\neq0\right\}`
 
 where :math:`\dual^2=0` but :math:`\dual\neq0`.
+
+Programing
+----------
 
 .. toctree::
    :maxdepth: 2
