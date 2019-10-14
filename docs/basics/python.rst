@@ -41,11 +41,11 @@ Operations
   
 .. code-block:: matlab
 
-  h3 = h1+h2 %Matlab
+  h3 = h1+h2; %Matlab
   
 .. code-block:: cpp
 
-  h3 = h1+h2 //cpp
+  DQ h3 = h1+h2; //cpp
   
 2. Subtraction :math:`\dq{h_3} = \dq{h_1} - \dq{h_2}`
 
