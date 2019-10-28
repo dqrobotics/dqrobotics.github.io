@@ -15,6 +15,8 @@ DQ Robotics is a standalone open-source ([LGPLv3](https://www.gnu.org/licenses/l
 
 # How to cite
 
+If you use DQ Robotics in your research, please cite the [DQ Robotics introductory paper](https://arxiv.org/abs/1910.11612).
+
 ```bibtex
 @Unpublished{
 title = {DQ Robotics: a Library for Robot Modeling and Control Using Dual Quaternion Algebra},
