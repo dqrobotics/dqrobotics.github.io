@@ -19,7 +19,7 @@ If you use DQ Robotics in your research, please cite the [DQ Robotics introducto
 
 ```bibtex
 @Unpublished{dqrobotics2019,
-title = {DQ Robotics: a Library for Robot Modeling and Control Using Dual Quaternion Algebra},
+title = {{DQ Robotics}: a Library for Robot Modeling and Control Using Dual Quaternion Algebra},
 author = {Bruno Vilhena Adorno and Murilo Marques Marinho},
 note = {Preprint available at https://arxiv.org/abs/1910.11612},
 }
