@@ -31,9 +31,9 @@ note = {Preprint available at https://arxiv.org/abs/1910.11612},
 
 ## Ubuntu-Python3 [![Build Status](https://travis-ci.com/dqrobotics/python.svg?branch=master)](https://travis-ci.com/dqrobotics/python) [![PyPI version](https://badge.fury.io/py/dqrobotics.svg)](https://badge.fury.io/py/dqrobotics)
 
-(Python 2 [will retire soon](https://pythonclock.org/). We only support Python 3.)
+(We only support Python 3.)
 
-To use DQ Robotics Python 3, open a terminal and type 
+To use DQ Robotics Python3, open a terminal and type 
 
 ```bash
 python3 -m pip install --user dqrobotics
