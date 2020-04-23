@@ -33,7 +33,7 @@ note = {Preprint available at https://arxiv.org/abs/1910.11612},
 
 (We only support Python 3.)
 
-To use DQ Robotics Python3, open a terminal and type 
+To install DQ Robotics Python3, open a terminal and type 
 
 ```bash
 python3 -m pip install --user dqrobotics
