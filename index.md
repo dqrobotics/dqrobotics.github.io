@@ -29,9 +29,9 @@ note = {Preprint available at https://arxiv.org/abs/1910.11612},
 
 # Installation [![Documentation Status](https://readthedocs.org/projects/dqroboticsgithubio/badge/?version=latest)](https://dqroboticsgithubio.readthedocs.io/en/latest/?badge=latest)
 
-## Ubuntu-Python3 [![Build Status](https://travis-ci.com/dqrobotics/python.svg?branch=master)](https://travis-ci.com/dqrobotics/python) [![PyPI version](https://badge.fury.io/py/dqrobotics.svg)](https://badge.fury.io/py/dqrobotics)
+## Python3 [![Build Status](https://travis-ci.com/dqrobotics/python.svg?branch=master)](https://travis-ci.com/dqrobotics/python) [![PyPI version](https://badge.fury.io/py/dqrobotics.svg)](https://badge.fury.io/py/dqrobotics)
 
-(We only support Python 3.)
+(We only support Python 3 and Ubuntu 16.04/18.04/20.04 LTS)
 
 To install DQ Robotics Python3, open a terminal and type 
 
@@ -49,9 +49,9 @@ After downloading the file dqrobotics-YY-MM.mltbx, where YY-MM stands for the ye
 
 More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/installation/matlab.html#matlab-installation).
 
-## Ubuntu-C++11 [![Build Status](https://travis-ci.com/dqrobotics/cpp.svg?branch=master)](https://travis-ci.com/dqrobotics/cpp)
+## C++11 [![Build Status](https://travis-ci.com/dqrobotics/cpp.svg?branch=master)](https://travis-ci.com/dqrobotics/cpp)
 
-The official support is for Ubuntu 16.04/18.04 LTS using our [Stable PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
+The official support is for Ubuntu 16.04/18.04/20.04 LTS using our [Stable PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
 
 ```bash
 sudo add-apt-repository ppa:dqrobotics-dev/release
