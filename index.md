@@ -31,15 +31,19 @@ note = {Preprint available at https://arxiv.org/abs/1910.11612},
 
 ## Python3 [![Build Status](https://travis-ci.com/dqrobotics/python.svg?branch=master)](https://travis-ci.com/dqrobotics/python) [![PyPI version](https://badge.fury.io/py/dqrobotics.svg)](https://badge.fury.io/py/dqrobotics)
 
-(We only support Python 3 and Ubuntu 16.04/18.04/20.04 LTS)
+*Official support*: Python >=3.5 in Ubuntu 16.04/18.04/20.04 LTS
 
 To install DQ Robotics Python3, open a terminal and type 
 
 ```bash
 python3 -m pip install --user dqrobotics
 ```
-
 More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/installation/python.html#python3-installation).
+
+Notes:
+1. No support, but package available: Python 3.7 in MacOSX 10.13.
+2. No support, but package available: Python >=3.5 in Windows 10.
+3. No support for conda installations, but you might be able to install the wheel file.
 
 ## MATLAB
 
