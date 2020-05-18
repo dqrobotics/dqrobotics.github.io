@@ -29,7 +29,7 @@ note = {Preprint available at https://arxiv.org/abs/1910.11612},
 
 # Installation [![Documentation Status](https://readthedocs.org/projects/dqroboticsgithubio/badge/?version=latest)](https://dqroboticsgithubio.readthedocs.io/en/latest/?badge=latest)
 
-## Python3 [![Build Status](https://travis-ci.com/dqrobotics/python.svg?branch=master)](https://travis-ci.com/dqrobotics/python) [![PyPI version](https://badge.fury.io/py/dqrobotics.svg)](https://badge.fury.io/py/dqrobotics)
+## Python3 [![Build Status](https://travis-ci.com/dqrobotics/python.svg?branch=master)](https://travis-ci.com/dqrobotics/python) [![PyPI version](https://badge.fury.io/py/dqrobotics.svg)](https://badge.fury.io/py/dqrobotics) [![Appveyor Build Status](https://ci.appveyor.com/api/projects/status/github/dqrobotics/python?branch=master&svg=true)](https://ci.appveyor.com/project/mmmarinho/python)
 
 *Official support*: Python >=3.5 in Ubuntu 16.04/18.04/20.04 LTS
 
