@@ -19,12 +19,12 @@ If you use DQ Robotics in your research, please cite the [DQ Robotics introducto
 
 ```bibtex
 @Article{adorno2020dqrobotics,
-  author       = {Adorno, B. V. and Marinho, M. M.},
-  title        = {DQ Robotics: a Library for Robot Modeling and Control Using Dual Quaternion Algebra},
-  journal      = {IEEE Robotics and Automation Magazine (RAM)},
-  year         = {2020},
-  note         = {(in press)},
-  doi          = {10.1109/MRA.2020.2997920},
+  author = {Adorno, B. V. and Marinho, M. M.},
+  title = {DQ Robotics: a Library for Robot Modeling and Control Using Dual Quaternion Algebra},
+  journal = {IEEE Robotics and Automation Magazine (RAM)},
+  year = {2020},
+  note = {(in press)},
+  doi = {10.1109/MRA.2020.2997920},
 }
 ```
 
