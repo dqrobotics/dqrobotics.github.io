@@ -21,14 +21,14 @@ If you use DQ Robotics in your research, please cite the [DQ Robotics introducto
 @article{Adorno-Marinho2020,
 archivePrefix = {arXiv},
 arxivId = {1910.11612},
-author = {Adorno, Bruno Vilhena and {Marques Marinho}, Murilo},
+author = {Adorno, Bruno Vilhena and  Marinho, Murilo Marques},
 doi = {10.1109/MRA.2020.2997920},
 eprint = {1910.11612},
 issn = {1070-9932},
 journal = {IEEE Robotics {\&} Automation Magazine},
 pages = {1--15},
-title = {{DQ Robotics: A Library for Robot Modeling and Control}},
-url = {http://arxiv.org/abs/1910.11612 https://ieeexplore.ieee.org/document/9136790/},
+title = {{DQ} Robotics: A Library for Robot Modeling and Control},
+url = {https://ieeexplore.ieee.org/document/9136790/},
 year = {2020}
 }
 
