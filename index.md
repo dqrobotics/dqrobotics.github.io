@@ -18,14 +18,20 @@ DQ Robotics is a standalone open-source ([LGPLv3](https://www.gnu.org/licenses/l
 If you use DQ Robotics in your research, please cite the [DQ Robotics introductory paper](https://arxiv.org/abs/1910.11612).
 
 ```bibtex
-@Article{adorno2020dqrobotics,
-  author = {Adorno, B. V. and Marinho, M. M.},
-  title = {DQ Robotics: a Library for Robot Modeling and Control Using Dual Quaternion Algebra},
-  journal = {IEEE Robotics and Automation Magazine (RAM)},
-  year = {2020},
-  note = {(in press)},
-  doi = {10.1109/MRA.2020.2997920},
+@article{Adorno-Marinho2020,
+archivePrefix = {arXiv},
+arxivId = {1910.11612},
+author = {Adorno, Bruno Vilhena and {Marques Marinho}, Murilo},
+doi = {10.1109/MRA.2020.2997920},
+eprint = {1910.11612},
+issn = {1070-9932},
+journal = {IEEE Robotics {\&} Automation Magazine},
+pages = {1--15},
+title = {{DQ Robotics: A Library for Robot Modeling and Control}},
+url = {http://arxiv.org/abs/1910.11612 https://ieeexplore.ieee.org/document/9136790/},
+year = {2020}
 }
+
 ```
 
 <hr />
