@@ -15,6 +15,8 @@ Support
 .. warning::
   Any requests regarding unsupported systems will most likely be ignored.
 
-1. Python3 (Ubuntu 16.04 and 18.04 LTS)
+1. Python3 (Ubuntu LTS excluding EOL_ versions)
 2. MATLAB (> 2016a)
-3. C++11 (Ubuntu 16.04 and 18.04 LTS)
+3. C++11 (Ubuntu LTS excluding EOL_ versions)
+
+.. _EOL: https://endoflife.software/operating-systems/linux/ubuntu
