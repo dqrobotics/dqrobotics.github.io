@@ -40,7 +40,7 @@ year = {2020}
 
 ## Python3 [![Build Status](https://travis-ci.com/dqrobotics/python.svg?branch=master)](https://travis-ci.com/dqrobotics/python) [![PyPI version](https://badge.fury.io/py/dqrobotics.svg)](https://badge.fury.io/py/dqrobotics) [![Appveyor Build Status](https://ci.appveyor.com/api/projects/status/github/dqrobotics/python?branch=master&svg=true)](https://ci.appveyor.com/project/mmmarinho/python)
 
-*Official support*: Python >=3.5 in Ubuntu 16.04/18.04/20.04 LTS
+*Official support*: Python >=3.5 in Ubuntu 18.04/20.04 LTS
 
 To install DQ Robotics Python3, open a terminal and type 
 
@@ -64,7 +64,7 @@ More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/i
 
 ## C++11 [![Build Status](https://travis-ci.com/dqrobotics/cpp.svg?branch=master)](https://travis-ci.com/dqrobotics/cpp)
 
-The official support is for Ubuntu 16.04/18.04/20.04 LTS using our [Stable PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
+The official support is for Ubuntu 18.04/20.04 LTS using our [Stable PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
 
 ```bash
 sudo add-apt-repository ppa:dqrobotics-dev/release
@@ -78,7 +78,7 @@ More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/i
 
 # Remarks
 1. The DQ Robotics software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfrigement.
-2. Refer to the issue tracker of each programming language if you need support. Support is given in a voluntary basis.
+2. Refer to the issue tracker of each programming language if you need support. Support is given on a voluntary basis.
 
 
 
