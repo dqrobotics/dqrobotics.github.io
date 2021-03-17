@@ -9,7 +9,7 @@ Python3 Installation
   
 Installation
 ============
-The DQ Robotics Python3 is delivered through PyPI_. On a Ubuntu 16.04/18.04 LTS system, open a terminal and run:
+The DQ Robotics Python3 is delivered through PyPI_. On a Ubuntu LTS (Excluding EOL_ versions) system, open a terminal and run:
 
 .. code-block:: bash
 
@@ -48,3 +48,4 @@ The recommended :code:`pip` installation installs the library for a given user a
 .. _PyPI: https://pypi.org/
 .. _ROS: https://www.ros.org/
 .. _LGPLV3: https://choosealicense.com/licenses/lgpl-3.0/
+.. _EOL: https://endoflife.software/operating-systems/linux/ubuntu
