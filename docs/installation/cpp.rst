@@ -10,7 +10,7 @@ C++11 Installation
 Release PPA
 ==================
 
-The official support is for Ubuntu 16.04/18.04 LTS using our Stable-PPA_.
+The official support is for Ubuntu LTS (Excluding EOL_ versions) using our Stable-PPA_.
 
 .. code-block:: bash
   
@@ -155,3 +155,4 @@ You might be able to build from source as long as you have Eigen3_, CMake_, and 
 .. _CoppeliaRobotics: https://github.com/CoppeliaRobotics
 .. _Dropbox: https://github.com/dropbox/json11
 .. _LGPLV3: https://choosealicense.com/licenses/lgpl-3.0/
+.. _EOL: https://endoflife.software/operating-systems/linux/ubuntu
