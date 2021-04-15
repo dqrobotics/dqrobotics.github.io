@@ -38,9 +38,11 @@ year = {2020}
 
 # Installation [![Documentation Status](https://readthedocs.org/projects/dqroboticsgithubio/badge/?version=latest)](https://dqroboticsgithubio.readthedocs.io/en/latest/?badge=latest)
 
-## Python3 [![Build Status](https://travis-ci.com/dqrobotics/python.svg?branch=master)](https://travis-ci.com/dqrobotics/python) [![PyPI version](https://badge.fury.io/py/dqrobotics.svg)](https://badge.fury.io/py/dqrobotics) [![Appveyor Build Status](https://ci.appveyor.com/api/projects/status/github/dqrobotics/python?branch=master&svg=true)](https://ci.appveyor.com/project/mmmarinho/python)
+## Python3 [![Python package](https://github.com/dqrobotics/python/actions/workflows/python_package.yml/badge.svg)](https://github.com/dqrobotics/python/actions/workflows/python_package.yml) [![PyPI version](https://badge.fury.io/py/dqrobotics.svg)](https://badge.fury.io/py/dqrobotics) [![Appveyor Build Status](https://ci.appveyor.com/api/projects/status/github/dqrobotics/python?branch=master&svg=true)](https://ci.appveyor.com/project/mmmarinho/python)
 
-*Official support*: Python >=3.5 in Ubuntu 18.04/20.04 LTS
+*Official support*: An active Python Release (currently Python >=3.6).
+
+Builds are available for Ubuntu LTS (excluding EOL), Windows, and MacOS.
 
 To install DQ Robotics Python3, open a terminal and type 
 
@@ -50,9 +52,7 @@ python3 -m pip install --user dqrobotics
 More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/installation/python.html#python3-installation).
 
 Notes:
-1. No support, but package available: Python 3.7 in MacOSX 10.13.
-2. No support, but package available: Python >=3.5 in Windows 10.
-3. No support for conda installations, but you might be able to install the wheel file.
+1. No support for conda installations, but you might be able to install the wheel file.
 
 ## MATLAB
 
@@ -64,7 +64,7 @@ More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/i
 
 ## C++11 [![Build Status](https://travis-ci.com/dqrobotics/cpp.svg?branch=master)](https://travis-ci.com/dqrobotics/cpp)
 
-The official support is for Ubuntu 18.04/20.04 LTS using our [Stable PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
+*Official support*: Ubuntu LTS (excluding EOL) using our [Stable PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
 
 ```bash
 sudo add-apt-repository ppa:dqrobotics-dev/release
