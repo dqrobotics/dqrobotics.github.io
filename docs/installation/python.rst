@@ -43,14 +43,22 @@ Using with the Robot Operating System (ROS_)
 
 The recommended :code:`pip` installation installs the library for a given user and should be visible to any ROS_ code executed by that user.
 
-Using the Quadratic Programming Controllers
+Interface with quadprog_
 ===========================================
+.. note::
+  The quadprog_ package is a licensed under GPLv2+. Refer to their license for details. The wrapper class :code:`DQ_QuadprogSolver` is licensed under the terms of DQRobotics.
 
-To use the quadratic programming controllers, install the :code:`quadprog` Python3 package, open a terminal and run:
+To use the :code:`DQ_QuadprogSolver` (a wrapper of quadprog_), you have to install quadprog_. To do so, open a terminal and run:
 
 .. code-block:: bash
 
   python3 -m pip install quadprog --user
+
+You can then import :code:`DQ_QuadprogSolver` as follows
+
+.. code-block:: python
+
+  from dqrobotics.solvers import DQ_QuadprogSolver
 
 .. _pybind11: https://github.com/pybind/pybind11
 .. _Python-Issue-Tracker: https://github.com/dqrobotics/python/issues
@@ -58,3 +66,4 @@ To use the quadratic programming controllers, install the :code:`quadprog` Pytho
 .. _ROS: https://www.ros.org/
 .. _LGPLV3: https://choosealicense.com/licenses/lgpl-3.0/
 .. _EOL: https://endoflife.software/operating-systems/linux/ubuntu
+.. _quadprog: https://pypi.org/project/quadprog/
