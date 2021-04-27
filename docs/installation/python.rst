@@ -43,6 +43,15 @@ Using with the Robot Operating System (ROS_)
 
 The recommended :code:`pip` installation installs the library for a given user and should be visible to any ROS_ code executed by that user.
 
+Using the Quadratic Programming Controllers
+===========================================
+
+To use the quadratic programming controllers, install the :code:`quadprog` Python3 package, open a terminal and run:
+
+.. code-block:: bash
+
+  python3 -m pip install quadprog --user
+
 .. _pybind11: https://github.com/pybind/pybind11
 .. _Python-Issue-Tracker: https://github.com/dqrobotics/python/issues
 .. _PyPI: https://pypi.org/
