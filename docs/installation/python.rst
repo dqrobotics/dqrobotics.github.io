@@ -46,7 +46,7 @@ The recommended :code:`pip` installation installs the library for a given user a
 Interface with quadprog_
 ===========================================
 .. note::
-  The quadprog_ package is a licensed under GPLv2+. Refer to their license for details. The wrapper class :code:`DQ_QuadprogSolver` is licensed under the terms of DQRobotics.
+  The quadprog_ package is licensed under GPLv2+. Refer to their license for details. The wrapper class :code:`DQ_QuadprogSolver` is licensed under the terms of DQRobotics.
 
 To use the :code:`DQ_QuadprogSolver` (a wrapper of quadprog_), you have to install quadprog_. To do so, open a terminal and run:
 
