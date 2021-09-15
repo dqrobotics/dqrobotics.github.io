@@ -6,6 +6,7 @@ Contents
 
    intro
    installation
+   classoverview 
    basics
    advanced
    references
