@@ -38,7 +38,7 @@ year = {2020}
 
 # Installation [![Documentation Status](https://readthedocs.org/projects/dqroboticsgithubio/badge/?version=latest)](https://dqroboticsgithubio.readthedocs.io/en/latest/?badge=latest)
 
-## Python3 [![Python package](https://github.com/dqrobotics/python/actions/workflows/python_package.yml/badge.svg)](https://github.com/dqrobotics/python/actions/workflows/python_package.yml) [![PyPI version](https://badge.fury.io/py/dqrobotics.svg)](https://badge.fury.io/py/dqrobotics) [![Appveyor Build Status](https://ci.appveyor.com/api/projects/status/github/dqrobotics/python?branch=master&svg=true)](https://ci.appveyor.com/project/mmmarinho/python)
+## Python3 [![Python package](https://github.com/dqrobotics/python/actions/workflows/python_package.yml/badge.svg)](https://github.com/dqrobotics/python/actions/workflows/python_package.yml) [![PyPI version](https://badge.fury.io/py/dqrobotics.svg)](https://badge.fury.io/py/dqrobotics)
 
 *Official support*: An active Python Release (currently Python >=3.6).
 
