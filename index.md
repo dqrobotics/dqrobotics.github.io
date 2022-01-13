@@ -54,7 +54,7 @@ More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/i
 Notes:
 1. No support for conda installations, but you might be able to install the wheel file.
 
-## MATLAB
+## MATLAB [![MATLAB Test](https://github.com/dqrobotics/matlab/actions/workflows/matlab_test.yml/badge.svg?branch=master)](https://github.com/dqrobotics/matlab/actions/workflows/matlab_test.yml)
 
 Assuming that you already have Matlab installed on you computer, download the most recent Matlab toolbox of DQ Robotics [here](https://github.com/dqrobotics/matlab/releases/latest).
 
