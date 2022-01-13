@@ -7,7 +7,7 @@ layout: default
 # What is DQ Robotics?
 
 DQ Robotics is a standalone open-source ([LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html)) library for robot modelling and control. It provides [dual quaternion](http://en.wikipedia.org/wiki/Dual_quaternion) algebra and kinematic calculation algorithms in Python3, Matlab, and C++11.
-- Most users will benefit from using the [Python3](#python3---) version at first. It is easy and computationally efficient (C++ code runs under the hood for fast performance).
+- Most users will benefit from using the [Python3](#python3---) version. It is easy and computationally efficient (C++ code runs under the hood for fast performance).
 - Use the [MATLAB](#matlab) version if you want to test your ideas fast while having convenient visualization tools, provided you have access to the [MathWorks software](https://www.mathworks.com/).
 - Use the [C++11 version](#c11-) for real-time high-performance applications and if you're not afraid of [pointers](https://en.wikipedia.org/wiki/Pointer_(computer_programming)).
 
@@ -40,9 +40,9 @@ year = {2020}
 
 ## Python3 [![Python package](https://github.com/dqrobotics/python/actions/workflows/python_package.yml/badge.svg)](https://github.com/dqrobotics/python/actions/workflows/python_package.yml) [![PyPI version](https://badge.fury.io/py/dqrobotics.svg)](https://badge.fury.io/py/dqrobotics)
 
-*Official support*: An active Python Release (currently Python >=3.6).
+*Official support*: An active [Python](https://devguide.python.org/#status-of-python-branches) Release.
 
-Builds are available for Ubuntu LTS (excluding EOL), Windows, and MacOS.
+Builds are available for [active Ubuntu LTS versions](https://wiki.ubuntu.com/Releases), Windows, and MacOS.
 
 To install DQ Robotics Python3, open a terminal and type 
 
@@ -64,7 +64,7 @@ More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/i
 
 ## C++11 [![Build Status](https://travis-ci.com/dqrobotics/cpp.svg?branch=master)](https://travis-ci.com/dqrobotics/cpp)
 
-*Official support*: Ubuntu LTS (excluding EOL) using our [Stable PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
+*Official support*: [active Ubuntu LTS versions](https://wiki.ubuntu.com/Releases) using our [Stable PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
 
 ```bash
 sudo add-apt-repository ppa:dqrobotics-dev/release
