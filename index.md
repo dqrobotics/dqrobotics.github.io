@@ -10,9 +10,17 @@ DQ Robotics is a standalone open-source ([LGPLv3](https://www.gnu.org/licenses/l
 - Most users will benefit from using the [Python3](#python3---) version. It is easy and computationally efficient (C++ code runs under the hood for fast performance).
 - Use the [MATLAB](#matlab) version if you want to test your ideas fast while having convenient visualization tools, provided you have access to the [MathWorks software](https://www.mathworks.com/).
 - Use the [C++11 version](#c11-) for real-time high-performance applications and if you're not afraid of [pointers](https://en.wikipedia.org/wiki/Pointer_(computer_programming)).
-- See our IROS 2021 video: [DQ Robotics: A Library for Robot Modeling and Control.](https://www.youtube.com/watch?v=e8ajS3FVMUI)
-  [![DQ_Robotics_600](https://user-images.githubusercontent.com/23158313/149566906-46c490dd-1e2f-4310-89c4-4a4c1abe3158.gif)](https://www.youtube.com/watch?v=e8ajS3FVMUI)
 
+<hr />
+
+# IROS 2021 Video 
+Link: [DQ Robotics: A Library for Robot Modeling and Control.](https://www.youtube.com/watch?v=e8ajS3FVMUI)
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=e8ajS3FVMUI">
+  <img src="https://user-images.githubusercontent.com/23158313/149566906-46c490dd-1e2f-4310-89c4-4a4c1abe3158.gif?raw=true" alt="IROS 2021 Video"/>
+  </a>
+</p>
 
 <hr />
 
