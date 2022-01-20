@@ -73,7 +73,7 @@ After downloading the file dqrobotics-YY-MM.mltbx, where YY-MM stands for the ye
 
 More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/installation/matlab.html#matlab-installation).
 
-## C++11 [![Build Status](https://travis-ci.com/dqrobotics/cpp.svg?branch=master)](https://travis-ci.com/dqrobotics/cpp)
+## C++11 [![CPP Build and Test](https://github.com/dqrobotics/cpp/actions/workflows/cpp_build_and_test.yml/badge.svg)](https://github.com/dqrobotics/cpp/actions/workflows/cpp_build_and_test.yml)
 
 *Official support*: [active Ubuntu LTS versions](https://wiki.ubuntu.com/Releases) using our [Stable PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
 
