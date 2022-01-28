@@ -26,7 +26,7 @@ Link: [DQ Robotics: A Library for Robot Modeling and Control.](https://www.youtu
 
 # How to cite
 
-If you use DQ Robotics in your research, please cite the [DQ Robotics introductory paper](https://arxiv.org/abs/1910.11612).
+If you use DQ Robotics in your research, please cite the [DQ Robotics introductory paper (IEEE Robotics and Automation Magazine)](https://ieeexplore.ieee.org/document/9136790). You can also look at the [ArXiv version](https://arxiv.org/abs/1910.11612).
 
 ```bibtex
 @article{Adorno-Marinho2020,
