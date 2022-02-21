@@ -87,6 +87,7 @@ All library updates will be delivered together with your regular Ubuntu updates.
 More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/installation/cpp.html#c-11-installation).
 
 ### CI Status
+
 |Repository| Status (master) | Status (release) |
 |---|---|---|
 |cpp|[![CPP Build and Test](https://github.com/dqrobotics/cpp/actions/workflows/cpp_build_and_test.yml/badge.svg)](https://github.com/dqrobotics/cpp/actions/workflows/cpp_build_and_test.yml)
