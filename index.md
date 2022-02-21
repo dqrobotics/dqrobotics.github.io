@@ -87,6 +87,12 @@ All library updates will be delivered together with your regular Ubuntu updates.
 
 More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/installation/cpp.html#c-11-installation).
 
+|Interface|Build Status|
+|---|---|
+|cpp-interface-vrep|[![CPP Build](https://github.com/dqrobotics/cpp-interface-vrep/actions/workflows/cpp_build.yml/badge.svg?branch=master)](https://github.com/dqrobotics/cpp-interface-vrep/actions/workflows/cpp_build.yml)|
+|cpp-interface-json11|[![CPP Build](https://github.com/dqrobotics/cpp-interface-json11/actions/workflows/cpp_build.yml/badge.svg?branch=master)](https://github.com/dqrobotics/cpp-interface-json11/actions/workflows/cpp_build.yml)|
+
+
 # Remarks
 1. The DQ Robotics software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfrigement.
 2. Refer to the issue tracker of each programming language if you need support. Support is given on a voluntary basis.
