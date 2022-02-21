@@ -73,8 +73,7 @@ After downloading the file dqrobotics-YY-MM.mltbx, where YY-MM stands for the ye
 
 More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/installation/matlab.html#matlab-installation).
 
-## C++11 [![CPP Build and Test](https://github.com/dqrobotics/cpp/actions/workflows/cpp_build_and_test.yml/badge.svg)](https://github.com/dqrobotics/cpp/actions/workflows/cpp_build_and_test.yml)
-
+## C++11 
 *Official support*: [active Ubuntu LTS versions](https://wiki.ubuntu.com/Releases) using our [Stable PPA](https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release).
 
 ```bash
@@ -87,10 +86,14 @@ All library updates will be delivered together with your regular Ubuntu updates.
 
 More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/installation/cpp.html#c-11-installation).
 
-|Interface|Build Status|
-|---|---|
-|cpp-interface-vrep|[![CPP Build](https://github.com/dqrobotics/cpp-interface-vrep/actions/workflows/cpp_build.yml/badge.svg?branch=master)](https://github.com/dqrobotics/cpp-interface-vrep/actions/workflows/cpp_build.yml)|
-|cpp-interface-json11|[![CPP Build](https://github.com/dqrobotics/cpp-interface-json11/actions/workflows/cpp_build.yml/badge.svg?branch=master)](https://github.com/dqrobotics/cpp-interface-json11/actions/workflows/cpp_build.yml)|
+### CI Status
+|Repository| Status (master) | Status (release) |
+|---|---|---|
+|cpp|[![CPP Build and Test](https://github.com/dqrobotics/cpp/actions/workflows/cpp_build_and_test.yml/badge.svg)](https://github.com/dqrobotics/cpp/actions/workflows/cpp_build_and_test.yml)
+||
+|cpp-interface-vrep|[![CPP Build](https://github.com/dqrobotics/cpp-interface-vrep/actions/workflows/cpp_build.yml/badge.svg?branch=master)](https://github.com/dqrobotics/cpp-interface-vrep/actions/workflows/cpp_build.yml)||
+|cpp-interface-json11|[![CPP Build](https://github.com/dqrobotics/cpp-interface-json11/actions/workflows/cpp_build.yml/badge.svg?branch=master)](https://github.com/dqrobotics/cpp-interface-json11/actions/workflows/cpp_build.yml)||
+|cpp-interface-cplex|[![CPP Build](https://github.com/dqrobotics/cpp-interface-cplex/actions/workflows/cpp_build.yml/badge.svg?branch=master)](https://github.com/dqrobotics/cpp-interface-cplex/actions/workflows/cpp_build.yml)||
 
 
 # Remarks
