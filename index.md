@@ -92,9 +92,9 @@ More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/i
 |---|---|---|
 |cpp|[![CPP Build and Test](https://github.com/dqrobotics/cpp/actions/workflows/cpp_build_and_test.yml/badge.svg)](https://github.com/dqrobotics/cpp/actions/workflows/cpp_build_and_test.yml)
 ||
-|cpp-interface-vrep|[![CPP Build](https://github.com/dqrobotics/cpp-interface-vrep/actions/workflows/cpp_build.yml/badge.svg?branch=master)](https://github.com/dqrobotics/cpp-interface-vrep/actions/workflows/cpp_build.yml)||
-|cpp-interface-json11|[![CPP Build](https://github.com/dqrobotics/cpp-interface-json11/actions/workflows/cpp_build.yml/badge.svg?branch=master)](https://github.com/dqrobotics/cpp-interface-json11/actions/workflows/cpp_build.yml)||
-|cpp-interface-cplex|[![CPP Build](https://github.com/dqrobotics/cpp-interface-cplex/actions/workflows/cpp_build.yml/badge.svg?branch=master)](https://github.com/dqrobotics/cpp-interface-cplex/actions/workflows/cpp_build.yml)||
+|cpp-interface-vrep|[![](http://github-actions.40ants.com/dqrobotics/cpp-interface-vrep/matrix.svg?branch=master)](https://github.com/dqrobotics/cpp-interface-vrep)|[![](http://github-actions.40ants.com/dqrobotics/cpp-interface-vrep/matrix.svg?branch=release)](https://github.com/dqrobotics/cpp-interface-vrep)|
+|cpp-interface-json11|[![](http://github-actions.40ants.com/dqrobotics/cpp-interface-json11/matrix.svg?branch=master)](https://github.com/dqrobotics/cpp-interface-json11)|[![](http://github-actions.40ants.com/dqrobotics/cpp-interface-json11/matrix.svg?branch=release)](https://github.com/dqrobotics/cpp-interface-json11)|
+|cpp-interface-cplex|[![](http://github-actions.40ants.com/dqrobotics/cpp-interface-cplex/matrix.svg?branch=master)](https://github.com/dqrobotics/cpp-interface-cplex)|[![](http://github-actions.40ants.com/dqrobotics/cpp-interface-cplex/matrix.svg?branch=release)](https://github.com/dqrobotics/cpp-interface-cplex)|
 
 
 # Remarks
