@@ -46,12 +46,14 @@ doi = {10.1109/MRA.2020.2997920},
 eprint = {1910.11612},
 issn = {1070-9932},
 journal = {IEEE Robotics {\&} Automation Magazine},
-pages = {1--15},
+pages = {102--116},
+month = sep,
+volume = {28},
+number = {3},
 title = {DQ Robotics: A Library for Robot Modeling and Control},
 url = {https://ieeexplore.ieee.org/document/9136790/},
-year = {2020}
+year = {2021}
 }
-
 ```
 
 <hr />
