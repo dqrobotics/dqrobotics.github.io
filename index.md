@@ -2,6 +2,15 @@
 layout: default
 
 ---
+
+<hr />
+
+# TL;DR
+
+```bash
+python3 -m pip install --user dqrobotics
+```
+
 <hr />
 
 # What is DQ Robotics?
@@ -85,16 +94,6 @@ sudo apt-get install libdqrobotics
 All library updates will be delivered together with your regular Ubuntu updates.
 
 More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/installation/cpp.html#c-11-installation).
-
-### CI Status
-
-|Repository| Status (master) | Status (release) |
-|---|---|---|
-|cpp|[![](http://github-actions.40ants.com/dqrobotics/cpp/matrix.svg?branch=master)](https://github.com/dqrobotics/cpp)|[![](http://github-actions.40ants.com/dqrobotics/cpp/matrix.svg?branch=release)](https://github.com/dqrobotics/cpp)|
-|cpp-interface-vrep|[![](http://github-actions.40ants.com/dqrobotics/cpp-interface-vrep/matrix.svg?branch=master)](https://github.com/dqrobotics/cpp-interface-vrep)|[![](http://github-actions.40ants.com/dqrobotics/cpp-interface-vrep/matrix.svg?branch=release)](https://github.com/dqrobotics/cpp-interface-vrep)|
-|cpp-interface-json11|[![](http://github-actions.40ants.com/dqrobotics/cpp-interface-json11/matrix.svg?branch=master)](https://github.com/dqrobotics/cpp-interface-json11)|[![](http://github-actions.40ants.com/dqrobotics/cpp-interface-json11/matrix.svg?branch=release)](https://github.com/dqrobotics/cpp-interface-json11)|
-|cpp-interface-cplex|[![](http://github-actions.40ants.com/dqrobotics/cpp-interface-cplex/matrix.svg?branch=master)](https://github.com/dqrobotics/cpp-interface-cplex)|[![](http://github-actions.40ants.com/dqrobotics/cpp-interface-cplex/matrix.svg?branch=release)](https://github.com/dqrobotics/cpp-interface-cplex)|
-
 
 # Remarks
 1. The DQ Robotics software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfrigement.
