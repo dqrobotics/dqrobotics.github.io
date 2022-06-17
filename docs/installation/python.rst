@@ -60,7 +60,12 @@ Interface with CoppeliaSim_ (Formely V-REP)
 You do not need to do anything specific to make DQRobotics work with CoppeliaSim. It should work with the default configurations of CoppeliaSim. If it doe s not work out-of-the-box, be sure that the connection port is correctly configured (refer to CoppeliaSimRemoteAPI_). The standard way is to have port :code:`19997` configured in your :code:`remoteApiConnections.txt`. 
 
 .. warning:: 
-  Known issue: For MacOS users, CoppeliaSim's default remote API port :code:`19997` does not seem to open correctly on application startup. This is a CoppeliaSim side issue, not with DQRobotics. One way to open it is to (1) add the following to the main script of the scene :code:`simRemoteApi.start(19997)` and (2) start the simulation. After that, the `DQ_VrepInterface` can be used normally.
+  Known issue: For MacOS users, CoppeliaSim's default remote API port :code:`19997` does not seem to open correctly on application startup. This is a CoppeliaSim issue, not an issue with DQRobotics. Another way way to open the port is to:
+  
+  1. add :code:`simRemoteApi.start(19997)` to the main script of the scene
+  2. start the simulation. 
+  
+  After that, the ::code:`DQ_VrepInterface` can be used normally. Note that this way, will you be unable to start and stop the simulation remotely.
 
 The minimal example below will obtain the pose of the `Floor` on the default scene in CoppeliaSim.
 
@@ -89,7 +94,7 @@ The minimal example below will obtain the pose of the `Floor` on the default sce
   finally:
       vi.disconnect()
       
-The result will be 
+When it works correctly, the result will be 
 
 .. code-block:: bash
 
