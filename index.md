@@ -62,7 +62,7 @@ year = {2021}
 
 ## Python3 [![Python package](https://github.com/dqrobotics/python/actions/workflows/python_package.yml/badge.svg)](https://github.com/dqrobotics/python/actions/workflows/python_package.yml) [![PyPI version](https://badge.fury.io/py/dqrobotics.svg)](https://badge.fury.io/py/dqrobotics)
 
-*Official support*: An active [Python](https://devguide.python.org/#status-of-python-branches) Release.
+*Official support*: An [active Python](https://devguide.python.org/versions/) release.
 
 Builds are available for [active Ubuntu LTS versions](https://wiki.ubuntu.com/Releases), Windows, and MacOS.
 
