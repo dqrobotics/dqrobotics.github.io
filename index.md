@@ -20,9 +20,7 @@ DQ Robotics is a standalone open-source ([LGPLv3](https://www.gnu.org/licenses/l
 - Use the [MATLAB](#matlab) version if you want to test your ideas fast while having convenient visualization tools, provided you have access to the [MathWorks software](https://www.mathworks.com/).
 - Use the [C++11 version](#c11-) for real-time high-performance applications and if you're not afraid of [pointers](https://en.wikipedia.org/wiki/Pointer_(computer_programming)).
 
-<hr />
-
-# IROS 2021 Video 
+## IROS 2021 Video 
 Link: [DQ Robotics: A Library for Robot Modeling and Control.](https://www.youtube.com/watch?v=e8ajS3FVMUI)
 
 <p align="center">
@@ -32,6 +30,10 @@ Link: [DQ Robotics: A Library for Robot Modeling and Control.](https://www.youtu
 </p>
 
 <hr />
+
+# Learning DQ Robotics
+
+- (MATLAB) [Kinematic modeling and control of serial-link robotic manipulators using DQ Robotics: From zero to hero](https://github.com/dqrobotics/learning-dqrobotics-in-matlab/tree/master/robotic_manipulators).
 
 # How to cite
 
