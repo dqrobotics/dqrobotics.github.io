@@ -20,9 +20,6 @@ DQ Robotics is a standalone open-source ([LGPLv3](https://www.gnu.org/licenses/l
 - Use the [MATLAB](#matlab) version if you want to test your ideas fast while having convenient visualization tools, provided you have access to the [MathWorks software](https://www.mathworks.com/).
 - Use the [C++11 version](#c11-) for real-time high-performance applications and if you're not afraid of [pointers](https://en.wikipedia.org/wiki/Pointer_(computer_programming)).
 
-## IROS 2021 Video 
-Link: [DQ Robotics: A Library for Robot Modeling and Control.](https://www.youtube.com/watch?v=e8ajS3FVMUI)
-
 <p align="center">
   <a href="https://www.youtube.com/watch?v=e8ajS3FVMUI">
   <img src="https://user-images.githubusercontent.com/23158313/149566906-46c490dd-1e2f-4310-89c4-4a4c1abe3158.gif?raw=true" alt="IROS 2021 Video"/>
@@ -33,19 +30,17 @@ Link: [DQ Robotics: A Library for Robot Modeling and Control.](https://www.youtu
 
 # Learning DQ Robotics
 
-- (MATLAB) [Kinematic modeling and control of serial-link robotic manipulators using DQ Robotics: From zero to hero](https://github.com/dqrobotics/learning-dqrobotics-in-matlab/tree/master/robotic_manipulators).
+- [Kinematic modeling and control of serial-link robotic manipulators using DQ Robotics: From zero to hero](https://github.com/dqrobotics/learning-dqrobotics-in-matlab/tree/master/robotic_manipulators).
 
 # How to cite
 
-If you use DQ Robotics in your research, please cite the [DQ Robotics introductory paper (IEEE Robotics and Automation Magazine)](https://ieeexplore.ieee.org/document/9136790). You can also look at the [ArXiv version](https://arxiv.org/abs/1910.11612).
+If you use DQ Robotics in your research, please cite the [DQ Robotics introductory paper (IEEE Robotics and Automation Magazine)](https://ieeexplore.ieee.org/document/9136790). 
+You can also look at the [ArXiv version](https://arxiv.org/abs/1910.11612).
 
 ```bibtex
 @article{Adorno-Marinho2020,
-archivePrefix = {arXiv},
-arxivId = {1910.11612},
 author = {Adorno, Bruno Vilhena and  Marinho, Murilo Marques},
 doi = {10.1109/MRA.2020.2997920},
-eprint = {1910.11612},
 issn = {1070-9932},
 journal = {IEEE Robotics {\&} Automation Magazine},
 pages = {102--116},
