@@ -98,6 +98,29 @@ More details at the [docs](https://dqroboticsgithubio.readthedocs.io/en/latest/i
 1. The DQ Robotics software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfrigement.
 2. Refer to the issue tracker of each programming language if you need support. Support is given on a voluntary basis.
 
+{% tabs log %}
+
+{% tab log php %}
+```php
+var_dump('hello');
+```
+{% endtab %}
+
+{% tab log js %}
+```javascript
+console.log('hello');
+```
+{% endtab %}
+
+{% tab log ruby %}
+```javascript
+pputs 'hello'
+```
+{% endtab %}
+
+{% endtabs %}
+
+
 
 
 
