@@ -32,6 +32,9 @@ DQ Robotics is a standalone open-source ([LGPLv3](https://www.gnu.org/licenses/l
 
 - (MATLAB) [Kinematic modeling and control of serial-link robotic manipulators using DQ Robotics: From zero to hero](https://github.com/dqrobotics/learning-dqrobotics-in-matlab/tree/master/robotic_manipulators).
 
+# Questions?
+Whether you are a beginner or advanced user, you're welcome to ask and answer questions about how to use the library, etc. in our [Q&A section](https://github.com/orgs/dqrobotics/discussions/categories/q-a). Before you ask a new question, we ask members to skim through the forum to verify if their question has already been answered.
+
 # How to cite
 
 If you use DQ Robotics in your research, please cite the [DQ Robotics introductory paper (IEEE Robotics and Automation Magazine)](https://ieeexplore.ieee.org/document/9136790). You can also look at the [ArXiv version](https://arxiv.org/abs/1910.11612).
