@@ -7,7 +7,7 @@ Python3 Installation
 .. note::
   Had any issues? Report them at the Python-Issue-Tracker_.
   
-Installation
+Installation (Release)
 ============
 The DQ Robotics Python3 is delivered through PyPI_. On a Ubuntu LTS (Excluding EOL_ versions) system, open a terminal and run:
 
@@ -17,6 +17,18 @@ The DQ Robotics Python3 is delivered through PyPI_. On a Ubuntu LTS (Excluding E
   
 .. warning:: 
   The installation will fail for any unsupported system, even if that system has pip.
+
+Installation (Development)
+============
+.. warning:: 
+   This package is unstable, which means that the API can suddenly change. 
+   
+The development version of the library can be installed using the additional :code:`--pre` flag.
+   
+.. code-block:: bash
+
+  python3 -m pip install --user dqrobotics --pre
+  
 
 Updates
 =======
