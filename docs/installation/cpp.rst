@@ -20,6 +20,30 @@ The official support is for Ubuntu LTS (Excluding EOL_ versions) using our Stabl
 
 All library updates will be delivered together with your regular Ubuntu updates.
 
+Development PPA
+==================
+
+.. warning:: 
+   This repository is unstable, which means that the API can suddenly change. 
+
+.. warning:: 
+   **DO NOT** add both PPAs at once. If you already used the Release PPA, you first have 
+   to remove it.
+   
+   .. code-block:: bash
+   
+     sudo apt remove libdqrobotics*
+     sudo add-apt-repository --remove ppa:dqrobotics-dev/release
+
+
+The development PPA targets Ubuntu LTS (Excluding EOL_ versions) using our Devel-PPA_.
+
+.. code-block:: bash
+  
+  sudo add-apt-repository ppa:dqrobotics-dev/development
+  sudo apt-get update
+  sudo apt-get install libdqrobotics
+
 Including
 =========
 .. note::
@@ -145,6 +169,7 @@ Building from source in another OS
 You might be able to build from source as long as you have Eigen3_, CMake_, and a C++11 compatible compiler. 
 
 .. _Stable-PPA: https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/release
+.. _Devel-PPA: https://launchpad.net/~dqrobotics-dev/+archive/ubuntu/development
 .. _V-REP: http://www.coppeliarobotics.com/
 .. _Eigen3: http://eigen.tuxfamily.org/index.php?title=Main_Page
 .. _CMake: https://cmake.org/
