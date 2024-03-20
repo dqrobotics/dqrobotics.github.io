@@ -43,7 +43,7 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-# Define the bib file location
+# Define the bib file location. This is for local builds.
 bibtex_bibfiles = ['references.bib']
 
 # -- Options for HTML output -------------------------------------------------
