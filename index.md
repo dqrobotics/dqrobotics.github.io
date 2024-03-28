@@ -63,7 +63,7 @@ year = {2021}
 
 *Official support*: An [active Python](https://devguide.python.org/versions/) release.
 
-Builds are available for [active Ubuntu LTS versions](https://wiki.ubuntu.com/Releases), Windows, and MacOS.
+Builds are available for [active Ubuntu LTS versions](https://wiki.ubuntu.com/Releases), Windows, and MacOS. The complete list of supported platforms can be found [here](https://pypi.org/project/dqrobotics/23.4.0a22/#files).
 
 To install DQ Robotics Python3, open a terminal and type 
 
