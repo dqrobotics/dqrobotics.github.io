@@ -1,6 +1,9 @@
 Basics
 ======================================
 
+.. raw:: html
+    :file: _static/mathjax_config.html
+
 .. note::
    We use the mathematical notation of :cite:`adorno2017` unless otherwise stated.
 
