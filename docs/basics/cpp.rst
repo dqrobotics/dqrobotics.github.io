@@ -1,8 +1,11 @@
 C++11 Basics
 ####################
+
+.. raw:: html
+    :file: ../_static/mathjax_config.html
   
 Preliminaries
-============
+==============
 All code in this section expects you to have the :code:`include` and :code:`using` in the beginning of your file
 
 .. code-block:: cpp
@@ -12,10 +15,10 @@ All code in this section expects you to have the :code:`include` and :code:`usin
   using namespace DQ_robotics;
 
 Binary Operations
-============
+==================
 
 Preliminaries
--------------
+--------------
 
 Suppose you have the dual quaternions
 
