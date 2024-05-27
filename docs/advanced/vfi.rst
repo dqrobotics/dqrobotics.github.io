@@ -1,5 +1,5 @@
 Vector-field inequalities
-########################
+##########################
 .. note::
   This section is based on the results presented in :cite:`Marinho2019`.
 
@@ -56,7 +56,7 @@ As an usage example, suppose that we are using the :code:`KukaYoubot` robot
 
 
 Robot-point to point distance Jacobian, :math:`\mymatrix J_{\quat t,\quat p}`
-------------------------------------
+-----------------------------------------------------------------------------
 .. note:: 
    Mathematically defined in Eq. (22) of :cite:`Marinho2019`.
 
@@ -67,7 +67,7 @@ The Jacobian relating the joint velocities with the derivative of the squared-di
    result = DQ_Kinematics.point_to_point_distance_jacobian(translation_jacobian, robot_point, workspace_point)
 
 Robot-point to line distance Jacobian, :math:`\mymatrix J_{\quat t,\quat l}`
-------------------------------------
+----------------------------------------------------------------------------
 .. note:: 
    Mathematically defined in Eq. (32) of :cite:`Marinho2019`.
 
@@ -79,7 +79,7 @@ The Jacobian relating the joint velocities with the derivative of the squared-di
 
 
 Robot-line to point distance Jacobian, :math:`\mymatrix J_{\quat l,\quat p}`
-------------------------------------
+----------------------------------------------------------------------------
 .. note:: 
    This method provides a generalized version of Eq. (34) of :cite:`Marinho2019` to any line in the manipulator.
 
@@ -91,7 +91,7 @@ The Jacobian relating the joint velocities with the derivative of the squared-di
 
 
 Robot-line to line distance Jacobian, :math:`\mymatrix J_{\quat l,\quat l}`
-------------------------------------
+---------------------------------------------------------------------------
 .. note:: 
    This method provides a generalized version of Eq. (48) of :cite:`Marinho2019` to any line in the manipulator.
 
@@ -103,7 +103,7 @@ The Jacobian relating the joint velocities with the derivative of the squared-di
    
    
 Robot-plane to point distance Jacobian, :math:`\mymatrix J_{\quat \pi,\quat l}`
-------------------------------------
+-------------------------------------------------------------------------------
 .. note:: 
    This method provides a generalized version of Eq. (56) of :cite:`Marinho2019` to any plane in the manipulator.
 
@@ -115,7 +115,7 @@ The Jacobian relating the joint velocities with the derivative of the distance b
    
    
 Robot-point to plane distance Jacobian, :math:`\mymatrix J_{\quat p,\quat \pi}`
-------------------------------------
+-------------------------------------------------------------------------------
 .. note:: 
    Mathematically defined in Eq. (59) of :cite:`Marinho2019`.
 
