@@ -63,21 +63,3 @@ rst_prolog = """.. raw:: html
 """
 
 
-#  Override mathjax_path to correct tex render.
-#mathjax_path = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
-
-"""
-mathjax_config = {                  
-    "TeX": {                        
-        "Macros": {                 
-            "imi": '{\\hat{\\imath}}',
-	    "imj": '{\\hat{\\jmath}}',
-	    "imk": '{\\hat{k}}',
-            "dual": '{\\varepsilon}',
-            "dq": ['{\\underline{\b{#1}}}',1],
-            "quat": ['\b{#1}',1],
-            "mymatrix": ['\b{#1}',1],
-            }                       
-        }                           
-    }
-"""
