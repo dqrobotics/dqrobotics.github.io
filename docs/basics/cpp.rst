@@ -1,8 +1,5 @@
 C++11 Basics
 ####################
-
-.. raw:: html
-    :file: ../_static/mathjax_config.html
   
 Preliminaries
 ==============

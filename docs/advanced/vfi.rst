@@ -1,9 +1,6 @@
 Vector-field inequalities
 ##########################
 
-.. raw:: html
-    :file: ../_static/mathjax_config.html
-
 .. note::
   This section is based on the results presented in :cite:`Marinho2019`.
 

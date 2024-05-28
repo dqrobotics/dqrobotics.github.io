@@ -58,6 +58,11 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+rst_prolog = """.. raw:: html
+    :file: _static/mathjax_config.html
+"""
+
+
 #  Override mathjax_path to correct tex render.
 mathjax_path = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
 
