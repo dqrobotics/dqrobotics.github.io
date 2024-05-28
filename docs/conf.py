@@ -64,8 +64,9 @@ rst_prolog = """.. raw:: html
 
 
 #  Override mathjax_path to correct tex render.
-mathjax_path = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+#mathjax_path = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
 
+"""
 mathjax_config = {                  
     "TeX": {                        
         "Macros": {                 
@@ -78,4 +79,5 @@ mathjax_config = {
             "mymatrix": ['\b{#1}',1],
             }                       
         }                           
-    }    
+    }
+"""
