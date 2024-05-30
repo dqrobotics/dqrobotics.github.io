@@ -2,7 +2,7 @@ Python3 Basics
 ####################
   
 Preliminaries
-==============
+============
 All code in this section expects you to have the followoing import in the beginning of your file
 
 .. code-block:: python
@@ -10,10 +10,10 @@ All code in this section expects you to have the followoing import in the beginn
   from dqrobotics import *
 
 Binary Operations
-==================
+============
 
 Preliminaries
---------------
+-------------
 
 Suppose you have the dual quaternions
 
