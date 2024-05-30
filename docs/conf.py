@@ -58,19 +58,7 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-#  Override mathjax_path to correct tex render.
-mathjax_path = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
-
-mathjax_config = {                  
-    "TeX": {                        
-        "Macros": {                 
-            "imi": '{\\hat{\\imath}}',
-	    "imj": '{\\hat{\\jmath}}',
-	    "imk": '{\\hat{k}}',
-            "dual": '{\\varepsilon}',
-            "dq": ['{\\underline{\b{#1}}}',1],
-            "quat": ['\b{#1}',1],
-            "mymatrix": ['\b{#1}',1],
-            }                       
-        }                           
-    }    
+#  This includes a custom HTML in each rst file. Such HTML defines Mathjax configurations and TeX macros.
+rst_prolog = """.. raw:: html
+    :file: _static/mathjax_config.html
+"""
